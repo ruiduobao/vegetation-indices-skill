@@ -17,6 +17,9 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(os.path.dirname(SCRIPT_DIR), "data")
 BASE_URL = "https://www.indexdatabase.de"
 
+# 指数标签体系（运行时从数据文件加载）
+INDEX_TAGS = {}
+
 # 中文翻译对照表
 ZH_NAMES = {
     # 常见指数名称翻译
@@ -449,12 +452,18 @@ OTHER_DATABASES = [
 def load_data():
     """加载所有数据"""
     data = {}
-    for fname in ["indices.json", "sensors.json", "applications.json", "envi_vegetation_indices.json", "sentinel_hub_indices.json"]:
+    for fname in ["indices.json", "sensors.json", "applications.json", "envi_vegetation_indices.json", "sentinel_hub_indices.json", "application_map.json", "index_tags.json", "supplementary_indices.json"]:
         fpath = os.path.join(DATA_DIR, fname)
         if os.path.exists(fpath):
             with open(fpath, "r", encoding="utf-8") as f:
                 key = fname.replace(".json", "")
                 data[key] = json.load(f)
+    
+    # 加载标签数据到全局变量
+    global INDEX_TAGS
+    if "index_tags" in data:
+        INDEX_TAGS = data["index_tags"].get("tags", {})
+    
     return data
 
 
@@ -527,6 +536,10 @@ def search_indices(query, data, max_results=10):
         abbrev = idx.get("abbreviation", "").lower()
         formula = idx.get("formula", "").lower()
         
+        # 标签匹配
+        tags = INDEX_TAGS.get(idx.get("abbreviation", ""), [])
+        tag_match = any(query in tag for tag in tags)
+        
         # 直接匹配
         if query_lower == name or query_lower == abbrev:
             score = 100
@@ -542,10 +555,36 @@ def search_indices(query, data, max_results=10):
         # 包含匹配
         elif query_lower in name or query_lower in abbrev:
             score = 60
+        # 标签匹配
+        elif tag_match:
+            score = 55
         # 单词边界匹配
         elif re.search(r'\b' + re.escape(query_lower) + r'\b', name):
             score = 50
         # 公式内容匹配
+        elif query_lower in formula:
+            score = 30
+        
+        if score > 0:
+            results.append((score, idx))
+    
+    # Also search supplementary indices
+    for idx in data.get("supplementary_indices", []):
+        score = 0
+        name = idx.get("name", "").lower()
+        abbrev = idx.get("abbreviation", "").lower()
+        formula = idx.get("formula", "").lower()
+        
+        if query_lower == name or query_lower == abbrev:
+            score = 100
+        elif zh_abbrev and abbrev == zh_abbrev.lower():
+            score = 95
+        elif name.startswith(query_lower) or abbrev.startswith(query_lower):
+            score = 80
+        elif query_lower in name or query_lower in abbrev:
+            score = 60
+        elif re.search(r'\b' + re.escape(query_lower) + r'\b', name):
+            score = 50
         elif query_lower in formula:
             score = 30
         
@@ -579,11 +618,13 @@ def get_statistics(data):
     idb_count = len(data.get("indices", []))
     envi_count = len(data.get("envi_vegetation_indices", []))
     sentinel_count = len(data.get("sentinel_hub_indices", []))
+    supp_count = len(data.get("supplementary_indices", []))
     return {
-        "total_indices": idb_count + envi_count + sentinel_count,
+        "total_indices": idb_count + envi_count + sentinel_count + supp_count,
         "idb_indices": idb_count,
         "envi_indices": envi_count,
         "sentinel_indices": sentinel_count,
+        "supplementary_indices": supp_count,
         "total_sensors": len(data.get("sensors", [])),
         "total_applications": len(data.get("applications", [])),
         "sources": [
@@ -629,7 +670,9 @@ def main(args=None):
                        "命令 / Commands:\n"
                        "  search <关键词> [--limit N]  搜索IDB指数(519个) / Search IDB indices\n"
                        "  envi [关键词] [--limit N]    搜索ENVI指数(56个) / Search ENVI indices\n"
-                        "  sentinel [关键词] [--limit N] 搜索Sentinel-2指数(248个) / Search Sentinel-2\n"
+                       "  sentinel [关键词] [--limit N] 搜索Sentinel-2指数(248个) / Search Sentinel-2\n"
+                       "  app [应用场景] [--limit N]   按应用搜索(不透水面/作物等) / Search by application\n"
+                       "  tags [标签] [--limit N]      按标签搜索(植被绿度/水分等) / Search by tag\n"
                        "  show <id>                    查看IDB指数详情 / Show IDB details\n"
                        "  applications                  应用领域 / Applications\n"
                        "  sensors                       传感器 / Sensors\n"
@@ -825,6 +868,156 @@ def main(args=None):
             "note": "ENVI公式图片可访问各指数的 formula_image 字段查看",
         }
     
+    elif command == "app":
+        # 应用场景搜索 - 用户搜"不透水面"→推荐NDBI等
+        max_results = 20
+        query = ""
+        if len(args) > 1:
+            query_parts = []
+            i = 1
+            while i < len(args):
+                if args[i] == "--limit" and i + 1 < len(args):
+                    try:
+                        max_results = int(args[i + 1])
+                    except ValueError:
+                        pass
+                    i += 2
+                else:
+                    query_parts.append(args[i])
+                    i += 1
+            query = " ".join(query_parts).strip()
+        
+        app_data = data.get("application_map", {})
+        
+        if query:
+            # 搜索匹配的应用场景
+            matched_apps = []
+            for app_name, app_info in app_data.items():
+                if query.lower() in app_name.lower() or query.lower() in app_info.get("en", "").lower() or query in app_info.get("description", ""):
+                    matched_apps.append((app_name, app_info))
+            
+            if not matched_apps:
+                return {
+                    "success": True,
+                    "query": query,
+                    "num_results": 0,
+                    "applications": [],
+                    "message": f"未找到与'{query}'相关的应用场景 / No applications found for '{query}'",
+                    "suggestion": f"可用应用场景: {', '.join(list(app_data.keys())[:10])}...",
+                    "all_applications": list(app_data.keys()),
+                }
+            
+            results = []
+            for app_name, app_info in matched_apps[:max_results]:
+                # 获取这些缩写的详细信息
+                abbrev_list = app_info.get("abbrevs", [])
+                detail_indices = []
+                for abbrev in abbrev_list[:10]:
+                    found = False
+                    # 在IDB数据中查找
+                    for idx in data.get("indices", []):
+                        if idx.get("abbreviation", "").upper() == abbrev.upper():
+                            idx["url"] = get_index_url(idx.get("id", 0))
+                            zh = get_zh_name(idx.get("abbreviation", ""))
+                            if zh:
+                                idx["zh_name"] = zh
+                            detail_indices.append(idx)
+                            found = True
+                            break
+                    # 在补充数据中查找
+                    if not found:
+                        for idx in data.get("supplementary_indices", []):
+                            if idx.get("abbreviation", "").upper() == abbrev.upper():
+                                idx["url"] = idx.get("url", "")
+                                if idx.get("zh_name"):
+                                    idx["zh_name"] = idx["zh_name"]
+                                detail_indices.append(idx)
+                                break
+                
+                results.append({
+                    "application": app_name,
+                    "application_en": app_info.get("en", ""),
+                    "description": app_info.get("description", ""),
+                    "abbreviation_list": abbrev_list,
+                    "indices": detail_indices,
+                })
+            
+            return {
+                "success": True,
+                "query": query,
+                "num_results": len(results),
+                "applications": results,
+                "message": f"找到 {len(results)} 个与'{query}'相关的应用场景 / Found {len(results)} applications for '{query}'",
+            }
+        else:
+            # 列出所有应用场景
+            all_apps = []
+            for app_name, app_info in app_data.items():
+                all_apps.append({
+                    "application": app_name,
+                    "application_en": app_info.get("en", ""),
+                    "description": app_info.get("description", ""),
+                    "num_indices": len(app_info.get("abbrevs", [])),
+                })
+            
+            return {
+                "success": True,
+                "num_applications": len(all_apps),
+                "applications": all_apps[:max_results],
+                "message": f"共 {len(all_apps)} 个应用场景 / {len(all_apps)} applications available",
+            }
+    
+    elif command == "tags":
+        # 列出所有标签
+        tag_data = data.get("index_tags", {})
+        tags = tag_data.get("tag_to_indexes", {})
+        
+        max_results = 50
+        query = ""
+        if len(args) > 1:
+            query_parts = []
+            i = 1
+            while i < len(args):
+                if args[i] == "--limit" and i + 1 < len(args):
+                    try:
+                        max_results = int(args[i + 1])
+                    except ValueError:
+                        pass
+                    i += 2
+                else:
+                    query_parts.append(args[i])
+                    i += 1
+            query = " ".join(query_parts).strip()
+        
+        if query:
+            # 搜索匹配的标签
+            matched = {k: v for k, v in tags.items() if query in k}
+            if not matched:
+                return {
+                    "success": True,
+                    "query": query,
+                    "num_results": 0,
+                    "tags": {},
+                    "message": f"未找到与'{query}'相关的标签 / No tags found for '{query}'",
+                    "all_tags": list(tags.keys())[:30],
+                }
+            return {
+                "success": True,
+                "query": query,
+                "num_results": len(matched),
+                "tags": {k: v[:10] for k, v in list(matched.items())[:max_results]},
+                "message": f"找到 {len(matched)} 个与'{query}'相关的标签 / Found {len(matched)} tags for '{query}'",
+            }
+        else:
+            # 列出所有标签
+            sorted_tags = sorted(tags.items(), key=lambda x: len(x[1]), reverse=True)
+            return {
+                "success": True,
+                "num_tags": len(tags),
+                "tags": {k: v[:5] for k, v in sorted_tags[:max_results]},
+                "message": f"共 {len(tags)} 个标签 / {len(tags)} tags available",
+            }
+    
     elif command == "help":
         return {
             "success": True,
@@ -832,13 +1025,14 @@ def main(args=None):
                        "命令 / Commands:\n"
                        "  search <关键词> [--limit N]  搜索IDB指数（支持中英文）\n"
                        "  envi [关键词] [--limit N]    搜索ENVI植被指数（含公式）\n"
-                        "  sentinel [关键词] [--limit N] 搜索Sentinel-2专用指数(248个)\n"
+                       "  sentinel [关键词] [--limit N] 搜索Sentinel-2专用指数(248个)\n"
+                       "  app [应用场景] [--limit N]   按应用场景搜索(不透水面/作物/火灾等)\n"
                        "  show <id>                    查看IDB指数详情（含原始链接）\n"
                        "  applications                 列出所有应用领域（含中文翻译）\n"
                        "  sensors                      列出所有传感器/卫星\n"
                        "  stats                        数据库统计信息\n"
                        "  databases                    其他植被指数数据库/网站列表\n"
-                       "  help                         帮助信息",
+                       "  help                        帮助信息",
         }
     
     else:
