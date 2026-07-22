@@ -1,0 +1,346 @@
+[
+  {
+    "id": 7,
+    "name": "Agriculture",
+    "description": "",
+    "n_indices": 22,
+    "n_sensors": 90,
+    "n_references": 64
+  },
+  {
+    "id": 18,
+    "name": "Agriculture - Crop parameters",
+    "description": "",
+    "n_indices": 4,
+    "n_sensors": 86,
+    "n_references": 0
+  },
+  {
+    "id": 41,
+    "name": "Agriculture - Crop yield",
+    "description": "",
+    "n_indices": 2,
+    "n_sensors": 71,
+    "n_references": 16
+  },
+  {
+    "id": 39,
+    "name": "Agriculture - Irrigation",
+    "description": "",
+    "n_indices": 0,
+    "n_sensors": 0,
+    "n_references": 2
+  },
+  {
+    "id": 43,
+    "name": "Agriculture - Land management",
+    "description": "",
+    "n_indices": 1,
+    "n_sensors": 71,
+    "n_references": 7
+  },
+  {
+    "id": 34,
+    "name": "Agriculture - Precision Crop Management",
+    "description": "",
+    "n_indices": 4,
+    "n_sensors": 83,
+    "n_references": 2
+  },
+  {
+    "id": 45,
+    "name": "Alpin",
+    "description": "",
+    "n_indices": 0,
+    "n_sensors": 0,
+    "n_references": 1
+  },
+  {
+    "id": 50,
+    "name": "Fire",
+    "description": "",
+    "n_indices": 2,
+    "n_sensors": 37,
+    "n_references": 1
+  },
+  {
+    "id": 8,
+    "name": "Forestry",
+    "description": "",
+    "n_indices": 3,
+    "n_sensors": 77,
+    "n_references": 4
+  },
+  {
+    "id": 44,
+    "name": "Forestry - Boreal",
+    "description": "",
+    "n_indices": 1,
+    "n_sensors": 65,
+    "n_references": 1
+  },
+  {
+    "id": 38,
+    "name": "Geology",
+    "description": "",
+    "n_indices": 28,
+    "n_sensors": 87,
+    "n_references": 8
+  },
+  {
+    "id": 37,
+    "name": "Geology - Mining area",
+    "description": "",
+    "n_indices": 0,
+    "n_sensors": 0,
+    "n_references": 7
+  },
+  {
+    "id": 3,
+    "name": "Geology - Rock",
+    "description": "",
+    "n_indices": 11,
+    "n_sensors": 27,
+    "n_references": 2
+  },
+  {
+    "id": 28,
+    "name": "Hyperspectral remote sensing",
+    "description": "",
+    "n_indices": 1,
+    "n_sensors": 16,
+    "n_references": 42
+  },
+  {
+    "id": 48,
+    "name": "Hyperspectral remote sensing - Red-edge position",
+    "description": "",
+    "n_indices": 15,
+    "n_sensors": 73,
+    "n_references": 19
+  },
+  {
+    "id": 47,
+    "name": "Metal",
+    "description": "",
+    "n_indices": 8,
+    "n_sensors": 90,
+    "n_references": 7
+  },
+  {
+    "id": 46,
+    "name": "Metal - Heavy metal contamination",
+    "description": "",
+    "n_indices": 2,
+    "n_sensors": 84,
+    "n_references": 6
+  },
+  {
+    "id": 13,
+    "name": "Metal - Iron",
+    "description": "",
+    "n_indices": 28,
+    "n_sensors": 91,
+    "n_references": 0
+  },
+  {
+    "id": 52,
+    "name": "Oil",
+    "description": "",
+    "n_indices": 3,
+    "n_sensors": 44,
+    "n_references": 1
+  },
+  {
+    "id": 2,
+    "name": "Soil",
+    "description": "",
+    "n_indices": 14,
+    "n_sensors": 103,
+    "n_references": 20
+  },
+  {
+    "id": 36,
+    "name": "Soil - Arsenic",
+    "description": "",
+    "n_indices": 0,
+    "n_sensors": 0,
+    "n_references": 1
+  },
+  {
+    "id": 35,
+    "name": "Soil - Contamination",
+    "description": "",
+    "n_indices": 0,
+    "n_sensors": 0,
+    "n_references": 5
+  },
+  {
+    "id": 49,
+    "name": "Soil - Salinity",
+    "description": "",
+    "n_indices": 0,
+    "n_sensors": 0,
+    "n_references": 1
+  },
+  {
+    "id": 1,
+    "name": "Vegetation",
+    "description": "",
+    "n_indices": 261,
+    "n_sensors": 104,
+    "n_references": 180
+  },
+  {
+    "id": 20,
+    "name": "Vegetation - Biomass",
+    "description": "",
+    "n_indices": 9,
+    "n_sensors": 90,
+    "n_references": 8
+  },
+  {
+    "id": 56,
+    "name": "Vegetation - Cellulose",
+    "description": "",
+    "n_indices": 15,
+    "n_sensors": 91,
+    "n_references": 1
+  },
+  {
+    "id": 17,
+    "name": "Vegetation - Chlorophyll",
+    "description": "",
+    "n_indices": 112,
+    "n_sensors": 103,
+    "n_references": 59
+  },
+  {
+    "id": 24,
+    "name": "Vegetation - Fluorescence",
+    "description": "",
+    "n_indices": 3,
+    "n_sensors": 31,
+    "n_references": 0
+  },
+  {
+    "id": 22,
+    "name": "Vegetation - LAI",
+    "description": "",
+    "n_indices": 10,
+    "n_sensors": 90,
+    "n_references": 81
+  },
+  {
+    "id": 55,
+    "name": "Vegetation - Lignin",
+    "description": "",
+    "n_indices": 8,
+    "n_sensors": 91,
+    "n_references": 2
+  },
+  {
+    "id": 25,
+    "name": "Vegetation - Nitrogen content",
+    "description": "",
+    "n_indices": 8,
+    "n_sensors": 36,
+    "n_references": 10
+  },
+  {
+    "id": 33,
+    "name": "Vegetation - Nitrogen stress",
+    "description": "",
+    "n_indices": 1,
+    "n_sensors": 11,
+    "n_references": 4
+  },
+  {
+    "id": 31,
+    "name": "Vegetation - PAR",
+    "description": "",
+    "n_indices": 1,
+    "n_sensors": 66,
+    "n_references": 28
+  },
+  {
+    "id": 51,
+    "name": "Vegetation - Protein",
+    "description": "",
+    "n_indices": 12,
+    "n_sensors": 60,
+    "n_references": 1
+  },
+  {
+    "id": 27,
+    "name": "Vegetation - Salinity stress",
+    "description": "",
+    "n_indices": 0,
+    "n_sensors": 0,
+    "n_references": 1
+  },
+  {
+    "id": 54,
+    "name": "Vegetation - Starch",
+    "description": "",
+    "n_indices": 21,
+    "n_sensors": 92,
+    "n_references": 1
+  },
+  {
+    "id": 23,
+    "name": "Vegetation - Stress",
+    "description": "",
+    "n_indices": 10,
+    "n_sensors": 82,
+    "n_references": 6
+  },
+  {
+    "id": 57,
+    "name": "Vegetation - Sugar",
+    "description": "",
+    "n_indices": 7,
+    "n_sensors": 42,
+    "n_references": 1
+  },
+  {
+    "id": 19,
+    "name": "Vegetation - Vitality",
+    "description": "",
+    "n_indices": 9,
+    "n_sensors": 88,
+    "n_references": 0
+  },
+  {
+    "id": 26,
+    "name": "Vegetation - Water",
+    "description": "",
+    "n_indices": 33,
+    "n_sensors": 95,
+    "n_references": 22
+  },
+  {
+    "id": 21,
+    "name": "Vegetation - Water stress",
+    "description": "",
+    "n_indices": 12,
+    "n_sensors": 85,
+    "n_references": 10
+  },
+  {
+    "id": 42,
+    "name": "Vegetation - Water use efficiency",
+    "description": "",
+    "n_indices": 1,
+    "n_sensors": 21,
+    "n_references": 2
+  },
+  {
+    "id": 40,
+    "name": "Water resource management",
+    "description": "",
+    "n_indices": 0,
+    "n_sensors": 0,
+    "n_references": 3
+  }
+]

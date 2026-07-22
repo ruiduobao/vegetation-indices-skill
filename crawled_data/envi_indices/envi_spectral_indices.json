@@ -1,0 +1,898 @@
+[
+  {
+    "abbreviation": "ARVI",
+    "name": "Atmospherically Resistant Vegetation Index",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html"
+  },
+  {
+    "abbreviation": "MCARI",
+    "name": "Modified Chlorophyll Absorption Ratio Index",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html"
+  },
+  {
+    "abbreviation": "MCARI2",
+    "name": "Modified Chlorophyll Absorption Ratio Index - Improved",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html"
+  },
+  {
+    "abbreviation": "MRENDVI",
+    "name": "Modified Red Edge Normalized Difference Vegetation Index",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html"
+  },
+  {
+    "abbreviation": "MRESR",
+    "name": "Modified Red Edge Simple Ratio",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html"
+  },
+  {
+    "abbreviation": "MTVI",
+    "name": "Modified Triangular Vegetation Index",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html"
+  },
+  {
+    "abbreviation": "MTVI2",
+    "name": "Modified Triangular Vegetation Index - Improved",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html"
+  },
+  {
+    "abbreviation": "RENDVI",
+    "name": "Red Edge Normalized Difference Vegetation Index",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html"
+  },
+  {
+    "abbreviation": "REPI",
+    "name": "Red Edge Position Index",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html"
+  },
+  {
+    "abbreviation": "TCARI",
+    "name": "Transformed Chlorophyll Absorption Reflectance Index",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html"
+  },
+  {
+    "abbreviation": "TVI",
+    "name": "Triangular Vegetation Index",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html"
+  },
+  {
+    "abbreviation": "VREI1",
+    "name": "Vogelmann Red Edge Index 1",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html"
+  },
+  {
+    "abbreviation": "VREI2",
+    "name": "Vogelmann Red Edge Index 2",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html"
+  },
+  {
+    "abbreviation": "ALUI",
+    "name": "Alunite Index",
+    "category": "Geology",
+    "category_cn": "地质指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "ARI1",
+    "name": "Anthocyanin Reflectance Index 1",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "ARI2",
+    "name": "Anthocyanin Reflectance Index 2",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "BAI",
+    "name": "Burn Area Index",
+    "category": "Burn",
+    "category_cn": "燃烧指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "CALI",
+    "name": "Calcite Index",
+    "category": "Geology",
+    "category_cn": "地质指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "CRI1",
+    "name": "Carotenoid Reflectance Index 1",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "CRI2",
+    "name": "Carotenoid Reflectance Index 2",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "CAI",
+    "name": "Cellulose Absorption Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "CLAI",
+    "name": "Clay Alteration Index",
+    "category": "Geology",
+    "category_cn": "地质指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "CLAY",
+    "name": "Clay Minerals Ratio",
+    "category": "Geology",
+    "category_cn": "地质指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "DVI",
+    "name": "Difference Vegetation Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "DWSI",
+    "name": "Disease Water Stress Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "DOLI",
+    "name": "Dolomite Index",
+    "category": "Geology",
+    "category_cn": "地质指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "EVI",
+    "name": "Enhanced Vegetation Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "ECAI",
+    "name": "Epidote / Chlorite / Amphibole Index",
+    "category": "Geology",
+    "category_cn": "地质指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "FEAI",
+    "name": "Ferric Iron Alteration Index",
+    "category": "Geology",
+    "category_cn": "地质指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "Ferrous",
+    "name": "Ferrous Minerals Ratio",
+    "category": "Geology",
+    "category_cn": "地质指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "FESI",
+    "name": "Ferrous Silicates Index",
+    "category": "Geology",
+    "category_cn": "地质指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "GEMI",
+    "name": "Global Environmental Monitoring Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "GARI",
+    "name": "Green Atmospherically Resistant Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "GCI",
+    "name": "Green Chlorophyll Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "GDVI",
+    "name": "Green Difference Vegetation Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "GLI",
+    "name": "Green Leaf Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "GNDVI",
+    "name": "Green Normalized Difference Vegetation Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "GOSAVI",
+    "name": "Green Optimized Soil Adjusted Vegetation Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "GRVI",
+    "name": "Green Ratio Vegetation Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "GSAVI",
+    "name": "Green Soil Adjusted Vegetation Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "GVI",
+    "name": "Green Vegetation Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "OH",
+    "name": "Hydroxyl-Bearing",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "IPVI",
+    "name": "Infrared Percentage Vegetation Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "KAI1",
+    "name": "Kaolinite Index 1",
+    "category": "Geology",
+    "category_cn": "地质指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "KAI2",
+    "name": "Kaolinite Index 2",
+    "category": "Geology",
+    "category_cn": "地质指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "KAI3",
+    "name": "Kaolinite Index 3",
+    "category": "Geology",
+    "category_cn": "地质指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "LATI",
+    "name": "Laterite Index",
+    "category": "Geology",
+    "category_cn": "地质指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "LAI",
+    "name": "Leaf Area Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "LCI",
+    "name": "Leaf Chlorophyll Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "LWVI1",
+    "name": "Leaf Water Vegetation Index 1",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "LWVI2",
+    "name": "Leaf Water Vegetation Index 2",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "LCAI",
+    "name": "Lignin Cellulose Absorption Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "MAGI",
+    "name": "Magnesite Index",
+    "category": "Mineral",
+    "category_cn": "矿物指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "METHANE",
+    "name": "Methane Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "AVIRIS-METHANE",
+    "name": "Methane Index for AVIRIS",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "AVIRIS-NG-METHANE",
+    "name": "Methane Index for AVIRIS-NG",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "EMIT-METHANE",
+    "name": "Methane Index for EMIT",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "ENMAP-METHANE",
+    "name": "Methane Index for ENMAP",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "PRISMA-METHANE",
+    "name": "Methane Index for PRISMA",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "MGAI",
+    "name": "MgOH-Carbonate Abundance Index",
+    "category": "Geology",
+    "category_cn": "地质指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "MNLI",
+    "name": "Modified Non-Linear Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "MNDWI",
+    "name": "Modified Normalized Difference Water Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "MSR",
+    "name": "Modified Simple Ratio",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "MSAVI2",
+    "name": "Modified Soil Adjusted Vegetation Index 2",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "MSI",
+    "name": "Moisture Stress Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "MONI",
+    "name": "Montmorillonite Index",
+    "category": "Mineral",
+    "category_cn": "矿物指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "MUSI",
+    "name": "Muscovite Index",
+    "category": "Mineral",
+    "category_cn": "矿物指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "NLI",
+    "name": "Non-Linear Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "NBR",
+    "name": "Normalized Burn Ratio",
+    "category": "Burn",
+    "category_cn": "燃烧指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "NBRT1",
+    "name": "Normalized Burn Ratio Thermal 1",
+    "category": "Burn",
+    "category_cn": "燃烧指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "NDBI",
+    "name": "Normalized Difference Built-Up Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "NDII",
+    "name": "Normalized Difference Infrared Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "NDLI",
+    "name": "Normalized Difference Lignin Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "NDMI",
+    "name": "Normalized Difference Mud Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "NDMSI",
+    "name": "Normalized Difference Moisture Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "NDNI",
+    "name": "Normalized Difference Nitrogen Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "NDPI",
+    "name": "Normalized Difference Pond Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "NDSI",
+    "name": "Normalized Difference Snow Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "NDVI",
+    "name": "Normalized Difference Vegetation Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "NDWI",
+    "name": "Normalized Difference Water Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "NMDI",
+    "name": "Normalized Multiband Drought Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "NPCI",
+    "name": "Normalized Pigment Chlorophyll Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "OSAVI",
+    "name": "Optimized Soil Adjusted Vegetation Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "PHEI",
+    "name": "Phengitic Index",
+    "category": "Mineral",
+    "category_cn": "矿物指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "PRI",
+    "name": "Photochemical Reflectance Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "PHAI",
+    "name": "Phyllic Alteration Index",
+    "category": "Geology",
+    "category_cn": "地质指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "PSRI",
+    "name": "Plant Senescence Reflectance Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "PRAI",
+    "name": "Propylitic Alteration Index",
+    "category": "Geology",
+    "category_cn": "地质指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "RGRI",
+    "name": "Red Green Ratio Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "RDVI",
+    "name": "Renormalized Difference Vegetation Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "SIDI",
+    "name": "Silica Dioxide Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "SR",
+    "name": "Simple Ratio",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "SWI",
+    "name": "Simple Water Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "SAVI",
+    "name": "Soil Adjusted Vegetation Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "SIPI1",
+    "name": "Structure Independent Pigment Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "SIPI",
+    "name": "Structure Insensitive Pigment Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "SGI",
+    "name": "Sum Green Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "TDVI",
+    "name": "Transformed Difference Vegetation Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "TGI",
+    "name": "Triangular Greenness",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "VARI",
+    "name": "Visible Atmospherically Resistant Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "WBI",
+    "name": "Water Band Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "WRI",
+    "name": "Water Ratio Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "WDRVI",
+    "name": "Wide Dynamic Range Vegetation Index",
+    "category": "Vegetation",
+    "category_cn": "植被指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "WV-BI",
+    "name": "WorldView Built-Up Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "WV-VI",
+    "name": "WorldView Improved Vegetative Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "WV-II",
+    "name": "WorldView New Iron Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "WV-NHFD",
+    "name": "WorldView Non-Homogeneous Feature Difference",
+    "category": "Miscellaneous",
+    "category_cn": "其他指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "WV-SI",
+    "name": "WorldView Soil Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "WV-WI",
+    "name": "WorldView Water Index",
+    "category": "Miscellaneous",
+    "category_cn": "其他指数",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "ROI",
+    "name": "Region of Interest",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "QUAC",
+    "name": "QUick Atmospheric Correction",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  },
+  {
+    "abbreviation": "FLAASH",
+    "name": "Fast Line-of-sight Atmospheric Analysis of Hypercubes",
+    "category": "Miscellaneous",
+    "category_cn": "其他",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/alphabeticallistspectralindices.html"
+  }
+]

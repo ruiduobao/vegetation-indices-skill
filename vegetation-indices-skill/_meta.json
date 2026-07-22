@@ -1,0 +1,12 @@
+{
+  "name": "vegetation-indices-skill",
+  "version": "1.0.0",
+  "description": "Query and search the complete database of remote sensing vegetation indices from IndexDatabase.de (IDB). Contains 519 indices, 167 sensors, and 43 applications.",
+  "author": "vegetation-indices-skill",
+  "license": "MIT",
+  "tags": ["remote-sensing", "vegetation-indices", "NDVI", "EVI", "satellite", "agriculture", "earth-observation"],
+  "source": "https://www.indexdatabase.de/",
+  "type": "script",
+  "entry_point": "main",
+  "script_path": "scripts/vegetation_indices.py"
+}

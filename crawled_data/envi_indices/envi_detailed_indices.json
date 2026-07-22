@@ -1,0 +1,488 @@
+[
+  {
+    "abbreviation": "MCARI",
+    "name": "Modified Chlorophyll Absorption Ratio Index",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html",
+    "formula": "one of several CARI indices that indicates the relative abundance of chlorophyll",
+    "reference": "Daughtry, C., et al. \"Estimating Corn Leaf Chlorophyll Concentration from Leaf and Canopy Reﬂectance.\" \nRemote Sensing Environment\n 74 (2000): 229–239.",
+    "description": "Modified Chlorophyll Absorption Ratio Index (MCARI)\n\n\nThis index is one of several CARI indices that indicates the relative abundance of chlorophyll"
+  },
+  {
+    "abbreviation": "MRENDVI",
+    "name": "Modified Red Edge Normalized Difference Vegetation Index",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html",
+    "formula": "a modification of the \nRed Edge NDVI\n  that corrects for leaf specular reflection",
+    "description": "Modified Red Edge Normalized Difference Vegetation Index (MRENDVI)\n\n\nThis index is a modification of the \nRed Edge NDVI\n  that corrects for leaf specular reflection"
+  },
+  {
+    "abbreviation": "MTVI",
+    "name": "Modified Triangular Vegetation Index",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html",
+    "formula": "similar to MTVI but is considered a better predictor of green LAI",
+    "reference": "Haboudane, D., et al. \"Hyperspectral Vegetation Indices and Novel Algorithms for Predicting Green LAI of Crop Canopies: Modeling and Validation in the Context of Precision Agriculture.\" \nRemote Sensing of Environment\n 90 (2004): 337-352.",
+    "wavelengths_nm": [
+      "750",
+      "800"
+    ],
+    "description": "Modified Triangular Vegetation Index (MTVI)\n\n\nThis index makes TVI suitable for LAI estimations by replacing the 750 nm wavelength with 800 nm, whose reflectance is influenced by changes in leaf and canopy structures"
+  },
+  {
+    "abbreviation": "RENDVI",
+    "name": "Red Edge Normalized Difference Vegetation Index",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html",
+    "formula": "a modification of the traditional broadband \nNDVI",
+    "description": "Red Edge Normalized Difference Vegetation Index (RENDVI)\n\n\nThis index is a modification of the traditional broadband \nNDVI"
+  },
+  {
+    "abbreviation": "TCARI",
+    "name": "Transformed Chlorophyll Absorption Reflectance Index",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html",
+    "formula": "one of several CARI indices that indicates the relative abundance of chlorophyll",
+    "reference": "Haboudane, D., et al. \"Hyperspectral Vegetation Indices and Novel Algorithms for Predicting Green LAI of Crop Canopies: Modeling and Validation in the Context of Precision Agriculture.\" \nRemote Sensing of Environment\n 90 (2004): 337-352.",
+    "description": "Transformed Chlorophyll Absorption Reflectance Index (TCARI)\n\n\nThis index is one of several CARI indices that indicates the relative abundance of chlorophyll"
+  },
+  {
+    "abbreviation": "TVI",
+    "name": "Triangular Vegetation Index",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html",
+    "formula": "calculated as the area of a hypothetical triangle in spectral space that connects (1) green peak reflectance, (2) minimum chlorophyll absorption, and (3) the NIR shoulder",
+    "reference": "Broge, N., and E. Leblanc. \"Comparing Prediction Power and Stability of Broadband and Hyperspectral Vegetation Indices for Estimation of Green Leaf Area and Canopy Chlorophyll Density.\" \nRemote Sensing of Environment\n 76 (2000): 156-172.",
+    "description": "Triangular Vegetation Index (TVI)\n\n\nThis index is calculated as the area of a hypothetical triangle in spectral space that connects (1) green peak reflectance, (2) minimum chlorophyll absorption, and (3) the NIR shoulder"
+  },
+  {
+    "abbreviation": "ARVI",
+    "name": "Atmospherically Resistant Vegetation Index",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html",
+    "reference": "Kaufman, Y., and D. Tanre. \"Atmospherically Resistant Vegetation Index (ARVI) for EOS-MODIS. \nIEEE Transactions on Geoscience and Remote Sensing\n 30, no. 2 (1992): 261-270.",
+    "description": "Atmospherically Resistant Vegetation Index (ARVI)\n\n\nThis index was originally designed for use with MODIS"
+  },
+  {
+    "abbreviation": "MRESR",
+    "name": "Modified Red Edge Simple Ratio",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html",
+    "formula": "a modification of the broadband \nsimple ratio (SR)",
+    "description": "Modified Red Edge Simple Ratio (MRESR)\n\n\nThis index is a modification of the broadband \nsimple ratio (SR)"
+  },
+  {
+    "abbreviation": "REPI",
+    "name": "Red Edge Position Index",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html",
+    "formula": "a narrowband reflectance measurement that is sensitive to changes in chlorophyll concentration",
+    "reference": "Curran, P., W. Windham, and H. Gholz. \"Exploring the Relationship Between Reflectance Red Edge and Chlorophyll Concentration in Slash Pine Leaves.\" \nTree Physiology\n 15 (1995): 203-206.",
+    "wavelengths_nm": [
+      "690",
+      "700",
+      "730",
+      "740"
+    ],
+    "description": "Red Edge Position Index (REPI)\n\n\nThis index is a narrowband reflectance measurement that is sensitive to changes in chlorophyll concentration"
+  },
+  {
+    "abbreviation": "FLAASH",
+    "name": "Fast Line-of-sight Atmospheric Analysis of Hypercubes",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/narrowbandgreenness.html",
+    "reference": "QUAC Background",
+    "description": "Fast Line-of-sight Atmospheric Analysis of Hypercubes (FLAASH)\n\n\n\n\nExample: Multispectral Sensors and FLAASH\n\n\n\n\nReference\n\n\n\n\nQUAC Background\n\n\nFLAASH Background\n\n\n\n\n\n\nMasks\n\n\nCalculate Cloud Mask Using Fmask\n\n\nCompute AVHRR Sea Surface Temperature\n\n\nCreate Image Mosaics\n\n\n\n\nCreate Seamless Mosaics\n\n\nCreate Quick Mosaics\n\n\nCreate Pixel-Based Mosaics\n\n\n\n\nManage Raster Data\n\n\n\n\nBuild Band Stacks\n\n\nBuild Layer Stacks\n\n\nCast Raster Data Types\n\n\nConvert Complex Data\n\n\nConvert Interleave\n\n\nCreate Binary Rasters by Automatic Thresholds\n\n\nCreate ENVI Meta Files\n\n\nDice Rasters\n\n\nExport Data to IDL Variables\n\n\nGenerate Thumbnail Image\n\n\nGenerate Test Data\n\n\nImport IDL Variables\n\n\nLandsat MSS Aspect\n\n\nLandsat MSS Deskew\n\n\nRegrid a Raster\n\n\nReplace Bad Lines\n\n\nResize Rasters\n\n\nRotate/Flip Data\n\n\nStretch Data\n\n\nView Byte Data\n\n\n\n\nRadiometric Correction Tools\n\n\n\n\nAtmospheric Correction\n\n\nRadiometric Calibration\n\n\nCalibrate AVHRR and TIMS Data\n\n\nPreprocessing Workflow\n\n\nOther Radiometric Correction Tools\n\n\n\n\nTransforms\n\n\n\n\nColor Transforms\n\n\nDecorrelation Stretch\n\n\nDimensionality Expansion\n\n\nImage Sharpening\n\n\nIndependent Components Analysis\n\n\nMinimum Noise Fraction Transform\n\n\nPrincipal Components Analysis\n\n\nPhotographic Stretch\n\n\nSaturation Stretch\n\n\nSynthetic Color Images\n\n\nTasseled Cap\n\n\n\n\nVegetation Suppression\n\n\n\n\nAnalyze Data\n\n\n\n\nAnomaly, Change, and Target Detection\n\n\n\n\nAnomaly Detection Workflow\n\n\nRX Anomaly Detection Tool\n\n\nChange Detection Analysis\n\n\nChange Detection Workflow\n\n\nSAM Target Finder with BandMax Workflow\n\n\nTarget Detection Workflow\n\n\nThematic Change Tool\n\n\nThematic Change Workflow\n\n\nTwo-Color Multiview\n\n\n\n\nBand Math and Spectral Indices\n\n\n\n\nBand Math\n\n\n\n\nIDL Tips for Use with Band Math\n\n\nBand Math User Functions\n\n\n\n\nBand Ratios\n\n\nSpectral Indices\n\n\nReference\n\n\n\n\nBurn Indices Background\n\n\nGas Indices Background\n\n\nGeology Indices Background\n\n\nMineral Indices Background\n\n\nMiscellaneous Indices Background\n\n\nVegetation Indices Background\n\n\n\n\n\n\nClassification\n\n\n\n\nClassification Workflow\n\n\nClass Layers\n\n\nENVI Classification Files\n\n\nClassification Tools\n\n\n\n\nSupervised Methods\n\n\n\n\nAdaptive Coherence Estimator\n\n\nBinary Encoding\n\n\nConstrained Energy Minimization\n\n\nMahalanobis Distance\n\n\nMaximum Likelihood\n\n\nMinimum Distance\n\n\nOrthogonal Subspace Projection\n\n\nParallelepiped\n\n\nSpectral Angle Mapper\n\n\nSpectral Information Divergence\n\n\nSupport Vector Machine\n\n\n\n\nUnsupervised Methods\n\n\n\n\nISODATA\n\n\nK-Means\n\n\n\n\nPost Classification\n\n\n\n\nBuffer Zone Images\n\n\nCalculate Confusion Matrices\n\n\nClass Statistics\n\n\nClassification Aggregation\n\n\nClassification Smoothing\n\n\nClassification to Pixel ROI\n\n\nClassification to Polygon ROI\n\n\nClassification to Vector\n\n\nClassify from Rule Images\n\n\nClump Classes\n\n\nCombine Classes\n\n\nDisplay ROC Curves\n\n\nEdit Classification Images\n\n\nGenerate a Random Sample\n\n\nMajority/Minority Analysis\n\n\nSieve Classes\n\n\n\n\nOther Tools\n\n\n\n\nDecision Tree\n\n\n\n\nBuild a New Decision Tree\n\n\nExecute a Decision Tree\n\n\nEdit an Existing Decision Tree\n\n\nExecute an Existing Decision Tree\n\n\n\n\nCollect Endmember Spectra\n\n\n\n\n\n\n\n\nENVI LiDAR\n\n\n\n\nUser Interface\n\n\nDirectories for ENVI LiDAR-Generated Products\n\n\nSet Preferences\n\n\nCoordinate System Settings\n\n\nExploring Data\n\n\n\n\nColor the Point Cloud\n\n\nColor the Display\n\n\n\n\nColor by Height, Intensity, or RGB\n\n\nApply a Height Color Palette\n\n\nDisplay Height Legend\n\n\nShow Point Features\n\n\n\n\nAnnotate the View\n\n\nCalculate Viewshed Analysis\n\n\nMeasure Distance Between Two Points\n\n\nFilter Points by Height\n\n\nTest DEM Precision\n\n\n\n\nCreate and Process Projects\n\n\n\n\nStart a New Project\n\n\nImport Reference Data\n\n\nProcess the Data\n\n\n\n\nGenerate a Density Map\n\n\nDefine Product Outputs\n\n\nSelect an Area to Process\n\n\nSet Processing Parameters\n\n\n\n\nExport Products\n\n\nLaunch Screen Capture in Microsoft PowerPoint\n\n\nQuality Assurance\n\n\n\n\nReview Processing Results\n\n\nCorrect and Reprocess Data\n\n\nMake Manual Changes\n\n\nManage QA Change Lists\n\n\n\n\n\n\n\n\nFeature Extraction\n\n\n\n\nExample-Based\n\n\nRule-Based\n\n\nSegment Only\n\n\nCreate Segmentation Images\n\n\nPoint Cloud Feature Extraction\n\n\nSpatial, Spectral and Textural Attributes\n\n\nReference\n\n\n\n\nSegmentation Algorithms Background\n\n\nMerge Algorithms Background\n\n\nRule-Based Classification Background\n\n\nSupport Vector Machine Background\n\n\nK Nearest Neighbor Background\n\n\nPrincipal Components Analysis Background\n\n\n\n\n\n\nFilters\n\n\n\n\nConvolution and Morphology Filters\n\n\nTexture Filters\n\n\nAdaptive Filters\n\n\nFrequency Filters\n\n\n\n\nGeographic Positioning Tools\n\n\n\n\nRPC Orthorectification\n\n\n\n\nRPC Orthorectification Using Reference Image\n\n\nReference\n\n\n\n\nAccuracy Assessment Background\n\n\nGCP File Formats\n\n\n\n\n\n\nGenerate GCPs from Reference Image\n\n\nImage Registration\n\n\nAutomatic Image Registration Workflow\n\n\nOverlay Grid Lines\n\n\nReproject Images\n\n\nSelect Coordinate Systems\n\n\nCreate Coordinate System Strings\n\n\nBuild RPCs\n\n\n\n\nSelect Input File\n\n\nParameters for Digital Cameras and Pushbroom Sensors\n\n\nFrame Camera\n\n\nDigital (Frame Central)\n\n\nDigital (Line Central)\n\n\nPushbroom Sensor\n\n\n\n\nPhotogrammetry Module\n\n\n\n\nRigorous Orthorectification\n\n\n\n\nRigorousOrthoWizard\n\n\nRigorousOrthoLayoutManager\n\n\nRigorousOrthoSupportedImageFormats\n\n\nRigorousOrthoSelectInputFiles\n\n\nRigorousOrthoCollectGCPs\n\n\nRigorousOrthoCollectEditTiePoints\n\n\nRigorousOrthoReorderImagesDefineCutlines\n\n\nRigorousOrthoOutputParameters\n\n\n\n\nRPC Orthorectification Using DSM\n\n\nGenerate Point Clouds and DSM\n\n\n\n\nLegacy Tools\n\n\n\n\nImage to Map Registration\n\n\nWarp and Resample\n\n\nCorrect MODIS Bow Tie Effect\n\n\nConvert ASCII Coordinates\n\n\nConvert Map Coordinates\n\n\nGeoreference from Input Geometry\n\n\nGeoreference ASTER Data\n\n\nGeoreference AVHRR Data\n\n\nGeoreference COSMO-SkyMed Data\n\n\nGeoreference Envisat\n\n\nGeoreference MODIS\n\n\nGeoreference RADARSAT\n\n\nGeoreference SPOT Data\n\n\nGeoreference SeaWiFS Data\n\n\nBuild ASTER Geometry Files\n\n\nBuild AVHRR Geometry Files\n\n\nBuild SeaWiFS Geometry Files\n\n\nBuild SPOT Geometry Files\n\n\n\n\nReference\n\n\n\n\nOverview of Map Information in ENVI\n\n\nFrame and Line Central Projections Background\n\n\nNITF Map Information Background\n\n\n\n\n\n\nMobility Tools\n\n\n\n\nForest Cover Classification\n\n\nHelicopter Landing Zones\n\n\nTopographic Breaklines\n\n\n\n\nRadar Tools\n\n\n\n\nALOS Radar Backscatter\n\n\n\n\nSpectral Tools\n\n\n\n\nProfiles and Plots\n\n\nMaterial Identification\n\n\nImage Cubes\n\n\nLinear Spectral Unmixing\n\n\nMapping Methods\n\n\n\n\nContinuum Removal\n\n\nLS-Fit (Linear Band Prediction)\n\n\nMatched Filtering\n\n\nMixture Tuned Matched Filtering\n\n\nMulti Range Spectral Feature Fitting\n\n\nSpectral Feature Fitting\n\n\n\n\nN-Dimensional Visualizer\n\n\n\n\nLocating Endmembers in a Spectral Data Cloud\n\n\n\n\nPixel Purity Index\n\n\nRelative Water Depth\n\n\nSMACC\n\n\nSpectral Hourglass Workflow\n\n\nSpectral Library Viewer\n\n\nSpectral Math\n\n\nSpectral Resampling\n\n\nReference\n\n\n\n\nTopographic Tools\n\n\n\n\n3D SurfaceView\n\n\nConvert Vector Topographic Maps to Raster DEMs\n\n\nDEM Extraction\n\n\n\n\nDEMExtractionWizard\n\n\n\n\nSelect Input Files for DEM Extraction\n\n\nSelect Ground Control Points\n\n\nView, Add, and Edit GCPs\n\n\nCollect Tie Points\n\n\nView, Add, and Edit Tie Points\n\n\nGenerate Epipolar Images\n\n\nSet Output DEM Projection\n\n\nSelect DEM Extraction Parameters\n\n\nExamine the DEM Result\n\n\n\n\nIndividualProcesses\n\n\n\n\nBuild Epipolar Images\n\n\nExtract a DEM\n\n\nIndividual Processes\n\n\nSelect Stereo GCPs\n\n\nSelect Stereo Tie Points\n\n\n\n\nDEM Editing Tool\n\n\nEpipolar 3D Cursor Tool\n\n\nDEM Extraction Module\n\n\nStereo Pair 3D Measurement Tool\n\n\n\n\nExtract Topographic Features\n\n\nGenerate Full-Resolution Contour Lines\n\n\nGMTED2010 Overview\n\n\nRasterize Point Data\n\n\nReplace Bad DEM Values\n\n\nTopographic Breaklines\n\n\nTopographic Modeling\n\n\nTopographic Shading\n\n\nInteractive Viewshed Analysis\n\n\n\n\nVegetation Analysis\n\n\n\n\nAgricultural Stress Classification\n\n\nFire Fuel Classification\n\n\nForest Cover Classification\n\n\nForest Health Classification\n\n\nNDVI\n\n\nVegetation Analysis Workflow\n\n\nVegetation Index Calculator\n\n\nVegetation Indices\n\n\n\n\nBroadband Greenness\n\n\nNarrowband Greenness\n\n\nLight Use Efficiency\n\n\nCanopy Nitrogen\n\n\nDry or Senescent Carbon\n\n\nLeaf Pigments\n\n\nCanopy Water Content\n\n\n\n\nReference\n\n\n\n\nCanopies\n\n\nPlant Foliage\n\n\nNon-Photosynthetic Vegetation\n\n\n\n\n\n\n\n\nCrop Science Module\n\n\n\n\nWorkflows\n\n\nCalculate Crop Metrics\n\n\nCalculate Crop Metrics with Spectral Index\n\n\nCalculate Zone Metrics\n\n\nCalculate Zone Metrics with Spectral Index\n\n\nConvert Crops To Shapefile\n\n\nConvert Zones to Shapefile\n\n\nCount Crops\n\n\nCreate Crop Location Grid\n\n\nCreate Zones\n\n\nEnhance Crops\n\n\nFind Crop Gaps\n\n\nFind Developing Hotspots\n\n\nFind Hotspots\n\n\nFind Rows and Remove Outliers\n\n\n\n\nENVI Repositories\n\n\nENVI Servers\n\n\nENVI Modeler\n\n\n\n\nGetting Started with the ENVI Modeler\n\n\nAdd Tasks to Models\n\n\nSpecify Input Datasets and Task Parameters\n\n\nExtract Properties and Metadata\n\n\nExtract Elements From Arrays\n\n\nBatch-Process Data Using Iterator Nodes\n\n\nApply Conditional Statements Using Filter Iterator Nodes\n\n\nCollect Items Using Aggregator Nodes\n\n\nAdd Breakpoints\n\n\nAdd Comments\n\n\nSpecify Model Output\n\n\nCreate Metatasks From Models\n\n\nValidate and Run Models\n\n\nGenerate and Run Code From Models\n\n\nENVI Modeler Examples\n\n\n\n\nExample: Sentinel-2 NDVI Color Slice Classification\n\n\nExample: Using Conditional Operators with Rasters\n\n\nExample: Image Registration Metatask\n\n\n\n\n\n\nProgramming\n\n\n\n\nENVI API Programming\n\n\n\n\nENVI API Frequently Asked Questions\n\n\nGetting Started\n\n\nDisplay Control\n\n\nWorking with Rasters\n\n\nRaster Metadata\n\n\nMap Information\n\n\nData Processing using ENVITask\n\n\nMetatasks\n\n\nCustom Tasks\n\n\n\n\nDeploy Custom Tasks\n\n\nSample Task Template\n\n\nStyle Sheets for User Interface Elements\n\n\n\n\nUser Interface Elements\n\n\nIDLContainer_UI Examples\n\n\n\n\nCustom Task Base Classes\n\n\n\n\nCustom Plot Functions\n\n\nWorkflows\n\n\n\n\nThe Basic Structure of a Workflow\n\n\nCustomize Workflows\n\n\nTips for Creating Effective Workflows\n\n\nExample: Create a Workflow Report\n\n\nCallback Example: Perform a Step Automatically\n\n\nCallback Example: Restructure a Workflow\n\n\nCallback Example: Show and Hide Task Parameters\n\n\nCustom Task Example: Allow Users to Skip a Workflow Step\n\n\nCustom UI Class Example: Choose Random Input Rasters\n\n\nCustom UI Class Example: Present Multiple Output Options in One Step\n\n\n\n\nProcessing Large Rasters Using Tile Iterators\n\n\nRun ENVI Analytics at the Command Line\n\n\n\n\nCommand Line Input and Output\n\n\nENVITaskEngine Examples\n\n\nBash Shell Script Example\n\n\nWindows Batch Script Example\n\n\nData Type Support for ENVITaskEngine\n\n\n\n\nAdvanced Concepts\n\n\n\n\nError Handling\n\n\nEvent Handling\n\n\n\n\nMouse Event Handlers\n\n\nKeyboard Event Handlers\n\n\nSelection Change Event Handlers\n\n\nEvent Handler Class\n\n\n\n\nMessaging\n\n\nToolbox Extensions\n\n\n\n\n\n\nApplication Control Routines\n\n\n\n\nENVI Function\n\n\n\n\nENVI::AddCustomReader\n\n\nENVI::AddExtension\n\n\nENVI::CleanupTemporaryWorkspace\n\n\nENVI::Close\n\n\nENVI::CreateView\n\n\nENVI::DeleteLocalRepository\n\n\nENVI::DownloadFromRepository\n\n\nENVI::EditRepositoryPackage\n\n\nENVI::GetBroadcastChannel\n\n\nENVI::GetLocalPackageInfo\n\n\nENVI::GetTemporaryFilename\n\n\nENVI::GetView\n\n\nENVI::HideExtensionFiles\n\n\nENVI::LogMessage\n\n\nENVI::OpenAnnotation\n\n\nENVI::OpenPointCloud\n\n\nENVI::OpenRaster\n\n\nENVI::OpenROI\n\n\nENVI::OpenVector\n\n\nENVI::PublishToRepository\n\n\nENVI::PingRepository\n\n\nENVI::QueryPointCloud\n\n\nENVI::Refresh\n\n\nENVI::RegisterRepository\n\n\nENVI::ReportError\n\n\nENVI::RestoreSession\n\n\nENVI::SaveSession\n\n\nENVI::Show\n\n\nENVI::UnregisterRepository\n\n\n\n\nMessaging\n\n\n\n\nENVIAbortable\n\n\nENVIBroadcastChannel\n\n\n\n\nENVIBroadcastChannel\n\n\nENVIBroadcastChannel::Subscribe\n\n\nENVIBroadcastChannel::Unsubscribe\n\n\n\n\nENVIMessage\n\n\nENVIMessageHandler\n\n\n\n\nENVIMessageHandler::OnMessage\n\n\n\n\nENVIStartMessage\n\n\nENVIProgressMessage\n\n\nENVIFinishMessage\n\n\n\n\nENVIPreferenceItem\n\n\n\n\nENVIPreferenceItem::RestoreDefaults\n\n\nENVIPreferenceItem::Save\n\n\n\n\nENVIPreferences\n\n\n\n\nENVIPreferences::Load\n\n\nENVIPreferences::RestoreDefaults\n\n\nENVIPreferences::Save\n\n\n\n\nENVISecureString\n\n\n\n\nENVISecureString::Dehydrate\n\n\nENVISecureString::Hydrate\n\n\n\n\nENVI Classic\n\n\n\n\nENVI_GET_CONFIGURATION_VALUES\n\n\n\n\n\n\nData Management Routines\n\n\n\n\nENVIAgCalculateCropMetrics\n\n\nENVIAgCalculateGetisOrd\n\n\nENVIAgCropCount\n\n\nENVIAgCrops\n\n\n\n\nENVIAgCrops::Dehydrate\n\n\nENVIAgCrops::Export\n\n\nENVIAgCrops::Hydrate\n\n\nENVIAgCrops::Remove\n\n\n\n\nENVIAgCropsToShapefile\n\n\nENVIAgEnhanceCrops\n\n\nENVIAgZones\n\n\n\n\nENVIAgZones::Dehydrate\n\n\nENVIAgZones::GetZoneProperty\n\n\nENVIAgZones::Hydrate\n\n\nENVIAgZones::Save\n\n\n\n\nENVIAnnotationSet\n\n\n\n\nENVIAnnotationSet::AddArrow\n\n\nENVIAnnotationSet::AddCircle\n\n\nENVIAnnotationSet::AddPolygon\n\n\nENVIAnnotationSet::AddPolyline\n\n\nENVIAnnotationSet::AddRectangle\n\n\nENVIAnnotationSet::AddSymbol\n\n\nENVIAnnotationSet::AddText\n\n\nENVIAnnotationSet::Close\n\n\nENVIAnnotationSet::Dehydrate\n\n\nENVIAnnotationSet::Hydrate\n\n\nENVIAnnotationSet::Save\n\n\n\n\nENVICalculateConfusionMatrixFromRaster\n\n\nENVIConfusionMatrix\n\n\n\n\nENVIConfusionMatrix::Accuracy\n\n\nENVIConfusionMatrix::ColumnTotals\n\n\nENVIConfusionMatrix::CommissionError\n\n\nENVIConfusionMatrix::F1\n\n\nENVIConfusionMatrix::KappaCoefficient\n\n\nENVIConfusionMatrix::OmissionError\n\n\nENVIConfusionMatrix::Precision\n\n\nENVIConfusionMatrix::ProducerAccuracy\n\n\nENVIConfusionMatrix::Recall\n\n\nENVIConfusionMatrix::RowTotals\n\n\nENVIConfusionMatrix::UserAccuracy\n\n\n\n\nENVICoordSys\n\n\n\n\nENVICoordSys::ConvertLonLatToLonLat\n\n\nENVICoordSys::ConvertLonLatToMap\n\n\nENVICoordSys::ConvertLonLatToMGRS\n\n\nENVICoordSys::ConvertMapToLonLat\n\n\nENVICoordSys::ConvertMapToMap\n\n\nENVICoordSys::ConvertMGRSToLonLat\n\n\nENVICoordSys::Dehydrate\n\n\nENVICoordSys::Hydrate\n\n\n\n\nENVIDataCollection\n\n\n\n\nENVIDataCollection::Add\n\n\nENVIDataCollection::Count\n\n\nENVIDataCollection::Get\n\n\nENVIDataCollection::Remove\n\n\n\n\nENVIDataContainer\n\n\n\n\nENVIDataContainer::AddArray\n\n\nENVIDataContainer::AddScalar\n\n\nENVIDataContainer::Dehydrate\n\n\nENVIDataContainer::GetArray\n\n\nENVIDataContainer::GetScalar\n\n\nENVIDataContainer::HasArray\n\n\nENVIDataContainer::HasScalar\n\n\nENVIDataContainer::Hydrate\n\n\nENVIDataContainer::RemoveArray\n\n\nENVIDataContainer::RemoveScalar\n\n\n\n\nENVIFeatureCount\n\n\n\n\nENVIFeatureCount::Close\n\n\nENVIFeatureCount::Dehydrate\n\n\nENVIFeatureCount::Hydrate\n\n\n\n\nENVIFIDToRaster\n\n\nENVIGCPSet\n\n\n\n\nENVIGCPSet::Add\n\n\nENVIGCPSet::ApplyOffset\n\n\nENVIGCPSet::Close\n\n\nENVIGCPSet::Count\n\n\nENVIGCPSet::Dehydrate\n\n\nENVIGCPSet::Export\n\n\nENVIGCPSet::Get\n\n\nENVIGCPSet::Hydrate\n\n\nENVIGCPSet::Remove\n\n\n\n\nENVIGeoJSON\n\n\nENVIGLTRasterSpatialRef\n\n\n\n\nENVIGLTRasterSpatialRef::ConvertFileToFile\n\n\nENVIGLTRasterSpatialRef::ConvertFileToMap\n\n\nENVIGLTRasterSpatialRef::ConvertLonLatToLonLat\n\n\nENVIGLTRasterSpatialRef::ConvertLonLatToMap\n\n\nENVIGLTRasterSpatialRef::ConvertLonLatToMGRS\n\n\nENVIGLTRasterSpatialRef::ConvertMaptoFile\n\n\nENVIGLTRasterSpatialRef::ConvertMapToLonLat\n\n\nENVIGLTRasterSpatialRef::ConvertMapToMap\n\n\nENVIGLTRasterSpatialRef::ConvertMGRSToLonLat\n\n\nENVIGLTRasterSpatialRef::Dehydrate\n\n\nENVIGLTRasterSpatialRef::Hydrate\n\n\nENVIGLTRasterSpatialRef::NorthIsUpAngle\n\n\n\n\nENVIGridDefinition\n\n\n\n\nENVIGridDefinition::ConvertGridToMap\n\n\nENVIGridDefinition::ConvertMapToGrid\n\n\nENVIGridDefinition::CreateGridFromCoordSys\n\n\nENVIGridDefinition::Dehydrate\n\n\nENVIGridDefinition::Hydrate\n\n\nENVIGridDefinition::Intersection\n\n\nENVIGridDefinition::Union\n\n\n\n\nENVIHydratable\n\n\n\n\nENVIHydratable::Dehydrate\n\n\n\n\nENVIHydrate\n\n\nENVIJagwireServer\n\n\n\n\nENVIJagwireServer::Close\n\n\nENVIJagwireServer::Query\n\n\nENVIJagwireServer::QueryDataset\n\n\n\n\nENVINITF\n\n\n\n\nENVINITF::Dehydrate\n\n\nENVINITF::GetAssociatedFiles\n\n\nENVINITF::GetBandFields\n\n\nENVINITF::GetBandValue\n\n\nENVINITF::GetBandValues\n\n\nENVINITF::GetDESData\n\n\nENVINITF::GetDESUserDefinedDataFields\n\n\nENVINITF::GetDESUserDefinedDataValue\n\n\nENVINITF::GetDESXMLData\n\n\nENVINITF::GetSecurityFields\n\n\nENVINITF::GetSecurityValue\n\n\nENVINITF::GetSegmentFields\n\n\nENVINITF::GetSegmentValue\n\n\nENVINITF::GetTextSegments\n\n\nENVINITF::GetTREFields\n\n\nENVINITF::GetTRENames\n\n\nENVINITF::GetTREValue\n\n\nENVINITF::Hydrate\n\n\nENVINITF::OpenCameraSeries\n\n\nENVINITF::OpenCameraSeriesFrame\n\n\nENVINITF::OpenRaster\n\n\nENVINITF::OpenVector\n\n\nENVINITF::WriteMetadata\n\n\n\n\nENVINITFCSMRasterSpatialRef\n\n\n\n\nENVINITFCSMRasterSpatialRef::ConvertFileToFile\n\n\nENVINITFCSMRasterSpatialRef::ConvertFileToLonLat\n\n\nENVINITFCSMRasterSpatialRef::ConvertFileToMap\n\n\nENVINITFCSMRasterSpatialRef::ConvertLonLatToFile\n\n\nENVINITFCSMRasterSpatialRef::ConvertLonLatToLonLat\n\n\nENVINITFCSMRasterSpatialRef::ConvertLonLatToMap\n\n\nENVINITFCSMRasterSpatialRef::ConvertLonLatToMGRS\n\n\nENVINITFCSMRasterSpatialRef::ConvertMapToFile\n\n\nENVINITFCSMRasterSpatialRef::ConvertMapToLonLat\n\n\nENVINITFCSMRasterSpatialRef::ConvertMapToMap\n\n\nENVINITFCSMRasterSpatialRef::ConvertMGRSToLonLat\n\n\nENVINITFCSMRasterSpatialRef::Dehydrate\n\n\nENVINITFCSMRasterSpatialRef::Hydrate\n\n\nENVINITFCSMRasterSpatialRef::NorthIsUpAngle\n\n\nENVINITFCSMRasterSpatialRef::UpIsUpAngle\n\n\n\n\nENVINITFMetadata\n\n\nENVINITFQuerySensorModels\n\n\nENVIParameterUI\n\n\n\n\nENVIParameterUI::BuildUI\n\n\nENVIParameterUI::GetValue\n\n\nENVIParameterUI::SetValue\n\n\n\n\nENVIPointCloud\n\n\n\n\nENVIPointCloud::Close\n\n\nENVIPointCloud::Dehydrate\n\n\nENVIPointCloud::GetPointsInCircle\n\n\nENVIPointCloud::GetPointsInPolygon\n\n\nENVIPointCloud::GetPointsInRange\n\n\nENVIPointCloud::GetPointsInRect\n\n\nENVIPointCloud::GetPointsInTile\n\n\nENVIPointCloud::Hydrate\n\n\nENVIPointCloud::Save\n\n\nENVIPointCloud::WritePoints\n\n\n\n\nENVIPointCloudFilter\n\n\nENVIPointCloudMetadata\n\n\nENVIPointCloudProductsInfo\n\n\n\n\nENVIPointCloudProductsInfo::Dehydrate\n\n\nENVIPointCloudProductsInfo::Hydrate\n\n\n\n\nENVIPointCloudQuery\n\n\n\n\nENVIPointCloudQuery::Close\n\n\nENVIPointCloudQuery::GetPointsInRange\n\n\n\n\nENVIPointCloudSpatialRef\n\n\n\n\nENVIPointCloudSpatialRef::ConvertLonLatToMap\n\n\nENVIPointCloudSpatialRef::ConvertMapToLonLat\n\n\nENVIPointCloudSpatialRef::ConvertMapToMap\n\n\nENVIPointCloudSpatialRef::Dehydrate\n\n\nENVIPointCloudSpatialRef::Hydrate\n\n\n\n\nENVIPreferenceItem\n\n\n\n\nENVIPreferenceItem::RestoreDefault\n\n\nENVIPreferenceItem::Save\n\n\n\n\nENVIPreferences\n\n\n\n\nENVIPreferences::Load\n\n\nENVIPreferences::RestoreDefaults\n\n\nENVIPreferences::Save\n\n\n\n\nENVIPseudoRasterSpatialRef\n\n\n\n\nENVIPseudoRasterSpatialRef::ConvertFileToFile\n\n\nENVIPseudoRasterSpatialRef::ConvertFileToLonLat\n\n\nENVIPseudoRasterSpatialRef::ConvertFileToMap\n\n\nENVIPseudoRasterSpatialRef::ConvertLonLatToFile\n\n\nENVIPseudoRasterSpatialRef::ConvertLonLatToLonLat\n\n\nENVIPseudoRasterSpatialRef::ConvertLonLatToMap\n\n\nENVIPseudoRasterSpatialRef::ConvertLonLatToMGRS\n\n\nENVIPseudoRasterSpatialRef::ConvertMapToFile\n\n\nENVIPseudoRasterSpatialRef::ConvertMapToLonLat\n\n\nENVIPseudoRasterSpatialRef::ConvertMapToMap\n\n\nENVIPseudoRasterSpatialRef::ConvertMGRSToLonLat\n\n\nENVIPseudoRasterSpatialRef::Dehydrate\n\n\nENVIPseudoRasterSpatialRef::Hydrate\n\n\nENVIPseudoRasterSpatialRef::NorthIsUpAngle\n\n\nENVIPseudoRasterSpatialRef::ShadowsDownAngle\n\n\n\n\nENVIRaster\n\n\n\n\nENVIRaster::Close\n\n\nENVIRaster::CreatePyramid\n\n\nENVIRaster::CreateTileIterator\n\n\nENVIRaster::Dehydrate\n\n\nENVIRaster::Export\n\n\nENVIRaster::ExportROIs\n\n\nENVIRaster::GetData\n\n\nENVIRaster::Hydrate\n\n\nENVIRaster::Save\n\n\nENVIRaster::SetData\n\n\nENVIRaster::SetTile\n\n\nENVIRaster::WriteMetadata\n\n\n\n\nENVIRasterIterator\n\n\n\n\nENVIRasterIterator::GetData\n\n\nENVIRasterIterator::Next\n\n\nENVIRasterIterator::Previous\n\n\nENVIRasterIterator::Reset\n\n\n\n\nENVIRasterMetadata\n\n\n\n\nENVIRasterMetadata::AddItem\n\n\nENVIRasterMetadata::Dehydrate\n\n\nENVIRasterMetadata::HasTag\n\n\nENVIRasterMetadata::Hydrate\n\n\nENVIRasterMetadata::RemoveItem\n\n\nENVIRasterMetadata::UpdateItem\n\n\n\n\nENVIRasterSeries\n\n\n\n\nENVIRasterSeries::Close\n\n\nENVIRasterSeries::Dehydrate\n\n\nENVIRasterSeries::First\n\n\nENVIRasterSeries::GetData\n\n\nENVIRasterSeries::GetKey\n\n\nENVIRasterSeries::Hydrate\n\n\nENVIRasterSeries::Last\n\n\nENVIRasterSeries::Next\n\n\nENVIRasterSeries::Previous\n\n\nENVIRasterSeries::Query\n\n\nENVIRasterSeries::Raster\n\n\nENVIRasterSeries::Set\n\n\n\n\nENVIRasterStatistics\n\n\nENVIRasterToFID\n\n\nENVIROI\n\n\n\n\nENVIROI::AddGeometry\n\n\nENVIROI::AddPixels\n\n\nENVIROI::AddThreshold\n\n\nENVIROI::AddVectorRecords\n\n\nENVIROI::ClearGeometry\n\n\nENVIROI::ClearPixels\n\n\nENVIROI::ClearThresholds\n\n\nENVIROI::ClearVectorRecords\n\n\nENVIROI::Close\n\n\nENVIROI::Dehydrate\n\n\nENVIROI::GetExtent\n\n\nENVIROI::GrowRegion\n\n\nENVIROI::Hydrate\n\n\nENVIROI::PixelAddresses\n\n\nENVIROI::Pixelate\n\n\nENVIROI::PixelCount\n\n\nENVIROI::Revert\n\n\nENVIROI::Save\n\n\n\n\nENVIRPCRasterSpatialRef\n\n\n\n\nENVIRPCRasterSpatialRef::ConvertFileToFile\n\n\nENVIRPCRasterSpatialRef::ConvertFileToLonLat\n\n\nENVIRPCRasterSpatialRef::ConvertFileToMap\n\n\nENVIRPCRasterSpatialRef::ConvertLonLatToFile\n\n\nENVIRPCRasterSpatialRef::ConvertLonLatToLonLat\n\n\nENVIRPCRasterSpatialRef::ConvertLonLatToMap\n\n\nENVIRPCRasterSpatialRef::ConvertLonLatToMGRS\n\n\nENVIRPCRasterSpatialRef::ConvertMapToFile\n\n\nENVIRPCRasterSpatialRef::ConvertMapToLonLat\n\n\nENVIRPCRasterSpatialRef::ConvertMapToMap\n\n\nENVIRPCRasterSpatialRef::ConvertMGRSToLonLat\n\n\nENVIRPCRasterSpatialRef::Dehydrate\n\n\nENVIRPCRasterSpatialRef::Hydrate\n\n\nENVIRPCRasterSpatialRef::NorthIsUpAngle\n\n\nENVIRPCRasterSpatialRef::UpIsUpAngle\n\n\n\n\nENVIServer\n\n\n\n\nENVIServer::Dehydrate\n\n\nENVIServer::GetExecutedTask\n\n\nENVIServer::GetJobStatus\n\n\nENVIServer::GetQueuedJobs\n\n\nENVIServer::GetSubmittedTask\n\n\nENVIServer::Hydrate\n\n\nENVIServer::SubmitTask\n\n\n\n\nENVISpectralLibrary\n\n\n\n\nENVISpectralLibrary::AddSpectra\n\n\nENVISpectralLibrary::Dehydrate\n\n\nENVISpectralLibrary::GetSpectralSignature\n\n\nENVISpectralLibrary::Hydrate\n\n\nENVISpectralLibrary::RemoveSpectra\n\n\n\n\nENVISpectralSignature\n\n\nENVIStandardRasterSpatialRef\n\n\n\n\nENVIStandardRasterSpatialRef::ConvertFileToFile\n\n\nENVIStandardRasterSpatialRef::ConvertFileToLonLat\n\n\nENVIStandardRasterSpatialRef::ConvertFileToMap\n\n\nENVIStandardRasterSpatialRef::ConvertLonLatToFile\n\n\nENVIStandardRasterSpatialRef::ConvertLonLatToLonLat\n\n\nENVIStandardRasterSpatialRef::ConvertLonLatToMap\n\n\nENVIStandardRasterSpatialRef::ConvertLonLatToMGRS\n\n\nENVIStandardRasterSpatialRef::ConvertMapToFile\n\n\nENVIStandardRasterSpatialRef::ConvertMapToLonLat\n\n\nENVIStandardRasterSpatialRef::ConvertMapToMap\n\n\nENVIStandardRasterSpatialRef::ConvertMGRSToLonLat\n\n\nENVIStandardRasterSpatialRef::Dehydrate\n\n\nENVIStandardRasterSpatialRef::Hydrate\n\n\nENVIStandardRasterSpatialRef::NorthIsUpAngle\n\n\n\n\nENVISpatialSubsetPointCloud\n\n\n\n\nENVISpatialSubsetPointCloud::Dehydrate\n\n\nENVISpatialSubsetPointCloud::Hydrate\n\n\n\n\nENVIStretchParameters\n\n\n\n\nENVIStretchParameters::Dehydrate\n\n\nENVIStretchParameters::Hydrate\n\n\n\n\nENVITiePointSet\n\n\n\n\nENVITiePointSet::Add\n\n\nENVITiePointSet::Count\n\n\nENVITiePointSet::Dehydrate\n\n\nENVITiePointSet::Export\n\n\nENVITiePointSet::Get\n\n\nENVITiePointSet::Hydrate\n\n\nENVITiePointSet::Offset\n\n\nENVITiePointSet::Remove\n\n\nENVITiePointSet::Scale\n\n\n\n\nENVITime\n\n\n\n\nENVITime::Dehydrate\n\n\nENVITime::GetString\n\n\nENVITime::Hydrate\n\n\n\n\nENVIURLRaster\n\n\nENVIVector\n\n\n\n\nENVIVector::Close\n\n\nENVIVector::Dehydrate\n\n\nENVIVector::Hydrate\n\n\n\n\nENVIWorkflow\n\n\n\n\nENVIWorkflow::Add\n\n\nENVIWorkflow::Connect\n\n\nENVIWorkflow::Disconnect\n\n\nENVIWorkflow::GenerateMetatask\n\n\nENVIWorkflow::GetStep\n\n\nENVIWorkflow::IsFirstStep\n\n\nENVIWorkflowStep::IsLastStep\n\n\n\n\nENVIWorkflowStep\n\n\n\n\nENVIWorkflowStep::GetUIObject\n\n\nENVIWorkflowStep::StyleSheetHideParameters\n\n\nENVIWorkflowStep::StyleSheetResetUIClass\n\n\nENVIWorkflowStep::StyleSheetSetUIClass\n\n\nENVIWorkflowStep::StyleSheetShowParameters\n\n\n\n\nENVI Classic\n\n\n\n\nENVI_BANDMAX_SELECT_BANDS\n\n\nENVI_CHANGE_HEAD\n\n\nENVI_COMPUTE_SUN_ANGLES\n\n\nENVI_CREATE_ROI\n\n\nENVI_DELETE_ROIS\n\n\nENVI_EVF_CLOSE\n\n\nENVI_EVF_DEFINE_ADD_RECORD\n\n\nENVI_EVF_DEFINE_CLOSE\n\n\nENVI_EVF_DEFINE_INIT\n\n\nENVI_EVF_INFO\n\n\nENVI_EVF_OPEN\n\n\nENVI_EVF_READ_RECORD\n\n\nENVI_EVF_TO_SHAPEFILE\n\n\nENVI_FILE_MNG\n\n\nENVI_FILE_TYPE\n\n\nENVI_GET_FILE_IDS\n\n\nENVI_GET_RGB_TRIPLETS\n\n\nENVI_GET_ROI_DIMS_PTR\n\n\nENVI_GET_ROI_IDS\n\n\nENVI_GET_STATISTICS\n\n\nENVI_OUTPUT_TO_EXTERNAL_FORMAT\n\n\nENVI_PLOT_DATA\n\n\nENVI_PROJ_CREATE\n\n\nENVI_READ_COLS\n\n\nENVI_RESAMPLE_SPECTRA\n\n\nENVI_SETUP_HEAD\n\n\nENVI_TRANSLATE_PROJECTION_NAME\n\n\nENVI_TRANSLATE_PROJECTION_UNITS\n\n\nENVI_USER_DEFINED_ANNOTATION\n\n\nENVI_WRITE_COSMOSKYMED_METADATA\n\n\nENVI_WRITE_DBF_FILE\n\n\nENVI_WRITE_STATISTICS\n\n\nRGB_GET_BANDS\n\n\n\n\n\n\nDisplay Control Routines\n\n\n\n\nENVIAnnotationLayer\n\n\n\n\nENVIAnnotationLayer::Close\n\n\nENVIAnnotationLayer::MoveDown\n\n\nENVIAnnotationLayer::MoveToBottom\n\n\nENVIAnnotationLayer::MoveToTop\n\n\nENVIAnnotationLayer::MoveUp\n\n\n\n\nENVIColorMap\n\n\nENVIGridLinesLayer\n\n\n\n\nENVIGridLinesLayer::Close\n\n\nENVIGridLinesLayer::GetView\n\n\nENVIGridLinesLayer::MoveDown\n\n\nENVIGridLinesLayer::MoveToBottom\n\n\nENVIGridLinesLayer::MoveToTop\n\n\nENVIGridLinesLayer::MoveUp\n\n\n\n\nENVIPointCloudViewer\n\n\n\n\nENVIPointCloudViewer::Close\n\n\nENVIPointCloudViewer::Display\n\n\nENVIPointCloudViewer::DisplayShapefile\n\n\nENVIPointCloudViewer::GetOpenData\n\n\nENVIPointCloudViewer::GetViewExtents\n\n\nENVIPointCloudViewer::SetProgress\n\n\nENVIPointCloudViewer::SetViewExtents\n\n\n\n\nENVIPortal\n\n\n\n\nENVIPortal::Animate\n\n\nENVIPortal::Close\n\n\n\n\nENVIRasterLayer\n\n\n\n\nENVIRasterLayer::AddROI\n\n\nENVIRasterLayer::Close\n\n\nENVIRasterLayer::Export\n\n\nENVIRasterLayer::GetLayer\n\n\nENVIRasterLayer::GetView\n\n\nENVIRasterLayer::MoveDown\n\n\nENVIRasterLayer::MoveToBottom\n\n\nENVIRasterLayer::MoveToTop\n\n\nENVIRasterLayer::MoveUp\n\n\n\n\nENVIRasterSeriesLayer\n\n\n\n\nENVIRasterSeriesLayer::First\n\n\nENVIRasterSeriesLayer::Last\n\n\nENVIRasterSeriesLayer::Next\n\n\nENVIRasterSeriesLayer::Previous\n\n\nENVIRasterSeriesLayer::Set\n\n\n\n\nENVIROILayer\n\n\n\n\nENVIROILayer::Close\n\n\nENVIROILayer::GetView\n\n\nENVIROILayer::MoveDown\n\n\nENVIROILayer::MoveToBottom\n\n\nENVIROILayer::MoveToTop\n\n\nENVIROILayer::MoveUp\n\n\n\n\nENVIUI\n\n\n\n\nENVIUI::CreateFromDialog\n\n\nENVIUI::CreateWorkflowDialog\n\n\nENVIUI::Hourglass\n\n\nENVIUI::LinkViews\n\n\nENVIUI::PlotSpectralSignature\n\n\nENVIUI::RefreshWindow\n\n\nENVIUI::RunTask\n\n\nENVIUI::SelectCoordinateSystem\n\n\nENVIUI::SelectGridDefinition\n\n\nENVIUI::SelectInputData\n\n\nENVIUI::SelectPseudoRasterSpatialRef\n\n\nENVIUI::SelectROI\n\n\nENVIUI::SelectRPCRasterSpatialRef\n\n\nENVIUI::SelectSpatialRef\n\n\nENVIUI::SelectSpectralLibrary\n\n\nENVIUI::SelectSpectralLibrarySignature\n\n\nENVIUI::SelectSpectralSignature\n\n\nENVIUI::SelectStandardRasterSpatialRef\n\n\nENVIUI::SelectTaskParameters\n\n\nENVIUI::ShowJobConsole\n\n\n\n\nENVIVectorLayer\n\n\n\n\nENVIVectorLayer::Close\n\n\nENVIVectorLayer::GetView\n\n\nENVIVectorLayer::MoveDown\n\n\nENVIVectorLayer::MoveToBottom\n\n\nENVIVectorLayer::MoveToTop\n\n\nENVIVectorLayer::MoveUp\n\n\n\n\nENVIView\n\n\n\n\nENVIView::Animate\n\n\nENVIView::Chip\n\n\nENVIView::ChipToFile\n\n\nENVIView::ChipToVideo\n\n\nENVIView::ClearSnailTrail\n\n\nENVIView::Close\n\n\nENVIView::ConvertFileToWindow\n\n\nENVIView::ConvertWindowToFile\n\n\nENVIView::CreateGridLinesLayer\n\n\nENVIView::CreateLayer\n\n\nENVIView::CreatePortal\n\n\nENVIView::Export\n\n\nENVIView::GeoLink\n\n\nENVIView::GetCenterLocation\n\n\nENVIView::GetExtent\n\n\nENVIView::GetLayer\n\n\nENVIView::GoToLocation\n\n\nENVIView::HitTest\n\n\nENVIView::Pan\n\n\nENVIView::PixelLink\n\n\nENVIView::Reset\n\n\nENVIView::Rotate\n\n\nENVIView::Select\n\n\nENVIView::SetExtent\n\n\nENVIView::Zoom\n\n\n\n\nENVI Classic\n\n\n\n\nAUTO_WID_MNG\n\n\nDISP_GET_LOCATION\n\n\nDISP_GOTO\n\n\nDISP_OUT_IMG\n\n\nENVI_BATCH_STATUS_WINDOW\n\n\nENVI_CENTER\n\n\nENVI_CLOSE_DISPLAY\n\n\nENVI_COLLECT_SPECTRA\n\n\nENVI_DEFINE_MENU_BUTTON\n\n\nENVI_DISP_QUERY\n\n\nENVI_DISPLAY_BANDS\n\n\nENVI_GET_DISPLAY_NUMBERS\n\n\nENVI_GET_IMAGE\n\n\nENVI_INFO_WID\n\n\nENVI_REPORT_INC\n\n\nENVI_REPORT_INIT\n\n\nENVI_REPORT_STAT\n\n\nENVI_SELECT\n\n\nWIDGET_AUTO_BASE\n\n\nWIDGET_EDIT\n\n\nWIDGET_GEO\n\n\nWIDGET_MAP\n\n\nWIDGET_MENU\n\n\nWIDGET_MULTI\n\n\nWIDGET_OUTF\n\n\nWIDGET_OUTFM\n\n\nWIDGET_PARAM\n\n\nWIDGET_PMENU\n\n\nWIDGET_RGB\n\n\nWIDGET_SLABEL\n\n\nWIDGET_SLIST\n\n\nWIDGET_SSLIDER\n\n\nWIDGET_STRING\n\n\nWIDGET_SUBSET\n\n\nWIDGET_TOGGLE\n\n\n\n\n\n\nENVITasks\n\n\n\n\nList of Tasks\n\n\n\n\nAdditiveLeeAdaptiveFilter\n\n\nAdditiveMultiplicativeLeeAdaptiveFilter\n\n\nAgCalculateAndRasterizeCropMetrics\n\n\nAgCalculateAndRasterizeCropMetricsWithSpectralIndex\n\n\nAgCalculateAndRasterizeZoneMetrics\n\n\nAgCalculateAndRasterizeZoneMetricsWithSpectralIndex\n\n\nAgCalculateCropMetrics\n\n\nAgCalculateGetisOrd\n\n\nAgCalculateZoneMetrics\n\n\nAgConvertZonesToShapefile\n\n\nAgCountAndRasterizeCrops\n\n\nAgCreateAndRasterizeCropLocationGrid\n\n\nAgCreateZones\n\n\nAgCropCount\n\n\nAgCropsToShapefile\n\n\nAgDevelopingHotspotColorSlice\n\n\nAgEnhanceCrops\n\n\nAgFindAndRasterizeCropGaps\n\n\nAgFindDevelopingHotspots\n\n\nAgFindDevelopingHotspotsWithSpectralIndex\n\n\nAgFindRowsAndRemoveOutliers\n\n\nAgHotspotAnalysis\n\n\nAgHotspotColorSlice\n\n\nAgRasterizeCrops\n\n\nAgRasterizeZones\n\n\nAgSpectralHotspotAnalysis\n\n\nAgriculturalStressClassification\n\n\nApplyGainOffset\n\n\nASCIIToROI\n\n\nASCIIToVector\n\n\nAutoChangeThresholdClassification\n\n\nBandMaxSubsetRaster\n\n\nBinaryAutomaticThresholdRaster\n\n\nBinaryGTThresholdRaster\n\n\nBinaryLTThresholdRaster\n\n\nBinaryMorphologicalFilter\n\n\nBitErrorAdaptiveFilter\n\n\nBufferZone\n\n\nBuildBandStack\n\n\nBuildGridDefinitionFromRaster\n\n\nBuildIrregularGridMetaspatialRaster\n\n\nBuildLayerStack\n\n\nBuildMetaspatialRaster\n\n\nBuildMosaicRaster\n\n\nBuildRasterPyramids\n\n\nBuildRasterSeries\n\n\nBuildTemporalCube\n\n\nBuildTimeSeries\n\n\nCalculateCloudMaskForProduct\n\n\nCalculateCloudMaskUsingFmask\n\n\nCalculateConfusionMatrixFromRaster\n\n\nCalculateGridDefinitionFromRasterIntersection\n\n\nCalculateGridDefinitionFromRasterUnion\n\n\nCalculateQUACGainOffset\n\n\nCalculateRasterThreshold\n\n\nCalculateRelativeWaterDepth\n\n\nCastRaster\n\n\nChangeThresholdClassification\n\n\nClassificationAggregation\n\n\nClassificationClumping\n\n\nClassificationSieving\n\n\nClassificationSmoothing\n\n\nClassificationStatistics\n\n\nClassificationToPixelROI\n\n\nClassificationToPolygonROI\n\n\nClassificationToShapefile\n\n\nColorPointCloud\n\n\nColorSliceClassification\n\n\nConstrainedEnergyMinimization\n\n\nConvertInterleave\n\n\nConvertMapToGeographicCoordinates\n\n\nConvertMapToPixelCoordinates\n\n\nConvertPixelToMapCoordinates\n\n\nCreatePointCloudSubProject\n\n\nCreatePointCloud\n\n\nCreateSubrectsFromDistance\n\n\nCreateSubrectsFromPixels\n\n\nCreateSubrectsFromROI\n\n\nCreateSubrectsFromTileCount\n\n\nCreateSubrectsFromVector\n\n\nDarkSubtractionCorrection\n\n\nDataValuesMaskRaster\n\n\nDecorrelationStretch\n\n\nDiceRasterByDistance\n\n\nDiceRasterByPixel\n\n\nDiceRasterBySubrects\n\n\nDiceRasterByTileCount\n\n\nDiceRasterByVector\n\n\nDimensionalityExpansionRaster\n\n\nDimensionalityExpansionSpectralLibrary\n\n\nDimensionsResampleRaster\n\n\nDirectionalFilter\n\n\nDirectionalKernel\n\n\nDownloadFromRepository\n\n\nDownloadOSMVectors\n\n\nDownloadSRTMRasterDEM\n\n\nEditRasterMetadata\n\n\nEmissivityFromAlphaResiduals\n\n\nEmissivityFromNormalization\n\n\nEmissivityFromReferenceChannel\n\n\nEmpiricalLineCalibration\n\n\nEndmemberCollection\n\n\nEnhancedFrostAdaptiveFilter\n\n\nEnhancedLeeAdaptiveFilter\n\n\nEqualizationStretchRaster\n\n\nExportColorSlices\n\n\nExportRasterToCADRG\n\n\nExportRasterToCOG\n\n\nExportRasterToENVI\n\n\nExportRasterToJPEG2000\n\n\nExportRasterToKMZ\n\n\nExportRasterToNITF20\n\n\nExportRasterToNITF21\n\n\nExportRasterToNSIF10\n\n\nExportRasterToPNG\n\n\nExportRasterToTIFF\n\n\nExportRastersToDirectory\n\n\nExportVectorToKML\n\n\nExportVectorToGeoJSON\n\n\nExtractBandsFromRaster\n\n\nExtractColumnFromArray\n\n\nExtractGeoJSONFromFile\n\n\nExtractRasterFromFile\n\n\nExtractRastersFromRasterSeries\n\n\nExtractROIsFromFile\n\n\nExtractRowFromArray\n\n\nExtractVectorFromFile\n\n\nFeatureCountToROI\n\n\nFilterTiePointsByFundamentalMatrix\n\n\nFilterTiePointsByGlobalTransform\n\n\nFilterTiePointsByGlobalTransformWithOrthorectification\n\n\nFilterTiePointsByPushbroomModel\n\n\nFilterVector\n\n\nFindRasters\n\n\nFindVectors\n\n\nFireFuelClassification\n\n\nFirstOrderEntropyTexture\n\n\nFLAASH\n\n\nFlatFieldCorrection\n\n\nForestCoverClassification\n\n\nForestHealthClassification\n\n\nForwardICATransform\n\n\nForwardMNFTransform\n\n\nForwardPCATransform\n\n\nFrostAdaptiveFilter\n\n\nFXSegmentation\n\n\nGammaAdaptiveFilter\n\n\nGaussianHighPassFilter\n\n\nGaussianHighPassKernel\n\n\nGaussianLowPassFilter\n\n\nGaussianLowPassKernel\n\n\nGaussianStretchRaster\n\n\nGenerateContourLines\n\n\nGenerateFilename\n\n\nGenerateGCPsFromReferenceImage\n\n\nGenerateGCPsFromTiePoints\n\n\nGenerateIndexArray\n\n\nGenerateMaskFromVector\n\n\nGeneratePointCloudsByDenseImageMatching\n\n\nGenerateThumbnail\n\n\nGenerateTiePointsByCrossCorrelation\n\n\nGenerateTiePointsByCrossCorrelationWithOrthorectification\n\n\nGenerateTiePointsByMutualInformation\n\n\nGenerateTiePointsByMutualInformationWithOrthorectification\n\n\nGeographicSubsetRaster\n\n\nGeoJSONToROI\n\n\nGeoPackageToShapefile\n\n\nGetColorSliceRanges\n\n\nGetColorTable\n\n\nGetSpectrumFromLibrary\n\n\nGetVersion\n\n\nGramSchmidtPanSharpening\n\n\nGrayscaleMorphologicalFilter\n\n\nHelicopter Landing Zones\n\n\nHighClipRaster\n\n\nHighPassFilter\n\n\nHighPassKernel\n\n\nIARReflectanceCorrection\n\n\nImageBandDifference\n\n\nImageIntersection\n\n\nImageThresholdToROI\n\n\nImageToImageRegistration\n\n\nInverseMNFTransform\n\n\nISODATAClassification\n\n\nKuanAdaptiveFilter\n\n\nLabelEntropyTexture\n\n\nLabelRegions\n\n\nLaplacianFilter\n\n\nLaplacianKernel\n\n\nLinearPercentStretchRaster\n\n\nLinearRangeStretchRaster\n\n\nLinearSpectralUnmixing\n\n\nLocalSigmaAdaptiveFilter\n\n\nLogResidualsCorrection\n\n\nLogStretchRaster\n\n\nLowClipRaster\n\n\nLowPassFilter\n\n\nLowPassKernel\n\n\nMahalanobisDistanceClassification\n\n\nMappingResampleRaster\n\n\nMaskRaster\n\n\nMatchedFilter\n\n\nMaximumLikelihoodClassification\n\n\nMedianFilter\n\n\nMergeROI\n\n\nMinimumDistanceClassification\n\n\nMirrorRaster\n\n\nMixtureTunedMatchedFilter\n\n\nMixtureTunedTargetConstrainedInterferenceMinimizedFilter\n\n\nMultiplicativeLeeAdaptiveFilter\n\n\nNITFToRasterSeries\n\n\nNNDiffusePanSharpening\n\n\nNormalizedEuclideanDistance\n\n\nOptimizedLinearStretchRaster\n\n\nOrthogonalSubspaceProjection\n\n\nParallelPipedClassification\n\n\nPCPanSharpening\n\n\nPercentThresholdClassification\n\n\nPixelPurityIndex\n\n\nPixelScaleResampleRaster\n\n\nPixelStatistics\n\n\nPixelwiseBandMathRaster\n\n\nPointCloudFeatureExtraction\n\n\nPublishToRepository\n\n\nQUAC\n\n\nQueryAllTasks\n\n\nQuerySpectralIndices\n\n\nQuerySpectralLibrary\n\n\nENVIQueryTaskCatalog\n\n\nENVIQueryTask\n\n\nRadarBackscatter\n\n\nRadiometricCalibration\n\n\nRadiometricNormalization\n\n\nRankStrengthTexture\n\n\nRasterConvolution\n\n\nRasterHistogram\n\n\nRasterMetadataItem\n\n\nRasterProperties\n\n\nRasterStatistics\n\n\nRasterThresholdToVector\n\n\nRasterViewshed\n\n\nRegridRaster\n\n\nRegridRasterSeries\n\n\nRegridRasterSeriesByIndex\n\n\nRegridRasterSeriesByIntersection\n\n\nRegridRasterSeriesByUnion\n\n\nRegisterRasterWithGeoServer\n\n\nRegisterVectorWithGeoServer\n\n\nRemoveScanLineStriping\n\n\nReprojectGLT\n\n\nReprojectRaster\n\n\nReprojectVector\n\n\nResampleSpectrum\n\n\nRGBToHSIRaster\n\n\nRobertsFilter\n\n\nROIMaskRaster\n\n\nROIStatistics\n\n\nROIToClassification\n\n\nROIToGeoJSON\n\n\nROIToKML\n\n\nRootStretchRaster\n\n\nRPCOrthorectification\n\n\nRPCOrthorectificationUsingDSMFromDenseImageMatching\n\n\nRPCOrthorectificationUsingReferenceImage\n\n\nRuleRasterClassification\n\n\nRXAnomalyDetection\n\n\nSAMImageDifference\n\n\nSetRasterMetadata\n\n\nSmoothVector\n\n\nSobelFilter\n\n\nSpectralAdaptiveCoherenceEstimator\n\n\nSpectralAdaptiveCoherenceEstimatorUsingSubspaceBackgroundStatistics\n\n\nSpectralAngleMapperClassification\n\n\nSpectralBinning\n\n\nSpectralIndex\n\n\nSpectralIndices\n\n\nSpectralInformationDivergenceClassification\n\n\nSpectralSimilarityMapperClassification\n\n\nSpectralSmoothing\n\n\nSpectralSubspaceBackgroundStatistics\n\n\nStringProcessing\n\n\nSubsetRaster\n\n\nTargetConstrainedInterferenceMinimizedFilter\n\n\nThematicChange\n\n\nThermalAtmosphericCorrection\n\n\nTopographicBreaklines\n\n\nTopographicFeatures\n\n\nTopographicModeling\n\n\nTopographicShadingUsingHLS\n\n\nTopographicShadingUsingHSV\n\n\nTopographicShadingUsingRGB\n\n\nTrainingClassificationStatistics\n\n\nTransposeRaster\n\n\nTwoColorMultiview\n\n\nUploadRasterToENVIConnect\n\n\nUploadVectorToArcGISPortal\n\n\nVectorAttributeToROIs\n\n\nVectorMaskRaster\n\n\nVectorRecordsToBoundingBox\n\n\nVectorRecordsToCentroid\n\n\nVectorRecordsToROI\n\n\nVectorRecordsToSeparateROI\n\n\nVectorToFeatureCount\n\n\nVegetationDelineation\n\n\nVegetationSuppression\n\n\nVideoToRasterSeries\n\n\n\n\nENVITask Function\n\n\n\n\nENVITask::AddParameter\n\n\nENVITask::Dehydrate\n\n\nENVITask::Execute\n\n\nENVITask::Hydrate\n\n\nENVITask::Parameter\n\n\nENVITask::ParameterNames\n\n\nENVITask::RemoveParameter\n\n\n\n\nMasking Support in ENVITasks\n\n\nTask Processing\n\n\n\n\nQueryAllTasks\n\n\nQueryTaskCatalog\n\n\nQueryTask\n\n\nRunTask\n\n\n\n\nRun Tasks from the ENVI Toolbox\n\n\nRun ENVITasks Asynchronously\n\n\n\n\nENVIAsyncBridgeTaskJob\n\n\n\n\nENVIAsyncBridgeTaskJob::OnDone\n\n\n\n\nENVIAsyncSpawnTaskJob\n\n\n\n\nENVIAsyncSpawnTaskJob::OnDone\n\n\n\n\n\n\nENVIAbortableTaskFromProcedure\n\n\n\n\nENVIAbortableTaskFromProcedure::PreExecute\n\n\nENVIAbortableTaskFromProcedure::DoExecute\n\n\nENVIAbortableTaskFromProcedure::PostExecute\n\n\n\n\nENVITaskFromProcedure\n\n\n\n\nENVITaskFromProcedure::DoExecute\n\n\nENVITaskFromProcedure::PostExecute\n\n\nENVITaskFromProcedure::PreExecute\n\n\n\n\nENVI Classic Data Processing Routines\n\n\n\n\nAIRSAR_HEADER_DOIT\n\n\nAIRSAR_PED_HEIGHT_DOIT\n\n\nAIRSAR_PHASE_IMAGE_DOIT\n\n\nAIRSAR_POLSIG_DOIT\n\n\nAIRSAR_SCATTER_DOIT\n\n\nAIRSAR_SYNTH_DOIT\n\n\nASPECT_DOIT\n\n\nBAD_DATA_DOIT\n\n\nCLASS_DOIT\n\n\nCLASS_RULE_DOIT\n\n\nCLASS_STATS_DOIT\n\n\nCOM_CLASS_DOIT\n\n\nCONTINUUM_REMOVE_DOIT\n\n\nCONVERT_INPLACE_DOIT\n\n\nCROSS_TRACK_CORRECTION_DOIT\n\n\nDECOR_DOIT\n\n\nDEM_BAD_DATA_DOIT\n\n\nDESKEW_DOIT\n\n\nDESTRIPE_DOIT\n\n\nEMITTANCE_CALC_DOIT\n\n\nENVI_AVHRR_CALIBRATE_DOIT\n\n\nENVI_AVHRR_GEOMETRY_DOIT\n\n\nENVI_AVHRR_WARP_DOIT\n\n\nENVI_CEM_DOIT\n\n\nENVI_CLOVER_DOIT\n\n\nENVI_COMPUTE_SUN_ANGLES\n\n\nENVI_CONVERT_LIDAR_DATA_DOIT\n\n\nENVI_CUBE_3D_DOIT\n\n\nENVI_DOIT\n\n\nENVI_ENVISAT_GEOREF_DOIT\n\n\nENVI_FILTER_DOIT\n\n\nENVI_FX_EXAMPLEBASED_DOIT\n\n\nENVI_FX_RULEBASED_DOIT\n\n\nENVI_GEOREF_FROM_GLT_DOIT\n\n\nENVI_GLT_DOIT\n\n\nENVI_GRID_DOIT\n\n\nENVI_ICA_INV_DOIT\n\n\nENVI_NEURAL_NET_DOIT\n\n\nENVI_OSP_DOIT\n\n\nENVI_RADARSAT_GEOREF_DOIT\n\n\nENVI_REGISTER_DOIT\n\n\nENVI_SEAWIFS_GEOMETRY_DOIT\n\n\nENVI_SEAWIFS_GEOREF_DOIT\n\n\nENVI_SMACC_DOIT\n\n\nENVI_SVM_DOIT\n\n\nENVI_SYNTHETIC_COLOR_DOIT\n\n\nENVI_TCIMF_DOIT\n\n\nENVI_TCIMF_MF_DOIT\n\n\nENVI_THERMAL_CORRECT_DOIT\n\n\nFFT_DOIT\n\n\nFFT_INV_DOIT\n\n\nGEN_IMAGE_DOIT\n\n\nHIST_EXPORT_DOIT\n\n\nMATH_DOIT\n\n\nMNF_INV_DOIT\n\n\nMORPH_DOIT\n\n\nMUNSELL_DOIT\n\n\nMUNSELL_INV_DOIT\n\n\nRADAR_INC_ANGLE_DOIT\n\n\nRATIO_DOIT\n\n\nRGB_ITRANS_DOIT\n\n\nRGB_TRANS_DOIT\n\n\nROC_CURVE_DOIT\n\n\nROTATE_DOIT\n\n\nRTV_DOIT\n\n\nSAT_STRETCH_DOIT\n\n\nSHARPEN_DOIT\n\n\nSIRC_HEADER_DOIT\n\n\nSIRC_MULTILOOK_DOIT\n\n\nSIRC_PED_HEIGHT_DOIT\n\n\nSIRC_PHASE_IMAGE_DOIT\n\n\nSIRC_POLSIG_DOIT\n\n\nSIRC_SYNTH_DOIT\n\n\nSLT2GND_DOIT\n\n\nSPECTRAL_FEATURE_DOIT\n\n\nTASCAP_DOIT\n\n\nTEXTURE_COOCCUR_DOIT\n\n\nTEXTURE_STATS_DOIT\n\n\nTIMS_CAL_DOIT\n\n\n\n\n\n\nObsolete Routines\n\n\n\n\nADAPT_FILT_DOIT\n\n\nCF_DOIT\n\n\nCLASS_CONFUSION_DOIT\n\n\nCLASS_CS_DOIT\n\n\nCLASS_MAJORITY_DOIT\n\n\nCONV_DOIT\n\n\nCONVERT_DOIT\n\n\nDARK_SUB_DOIT\n\n\nE3De\n\n\nE3De::AddAnnotation\n\n\nE3De::AddExtension\n\n\nE3De::Close\n\n\nE3De::CreateLidarFromSubrect\n\n\nE3De::DeleteAnnotation\n\n\nE3De::DisplayShapefile\n\n\nE3De::GenerateProducts\n\n\nE3De::GetOpenData\n\n\nE3De::GetProductionParameters\n\n\nE3De::GetProductsInfo\n\n\nE3De::GetViewExtents\n\n\nE3De::OpenLidar\n\n\nE3De::SetProgress\n\n\nE3De::SetViewExtents\n\n\nE3DLasHeader\n\n\nE3DLidar\n\n\nE3DLidar::Close\n\n\nE3DLidar::GetDataRange\n\n\nE3DLidar::GetLasHeader\n\n\nE3DLidar::GetPointsInCircle\n\n\nE3DLidar::GetPointsInPolygon\n\n\nE3DLidar::GetPointsInRange\n\n\nE3DLidar::GetPointsInRect\n\n\nE3DLidar::GetPointsInTile\n\n\nE3DLidar::Init\n\n\nE3DLidar::Save\n\n\nE3DLidar::WritePoints\n\n\nE3DLidarPointFilter\n\n\nE3DLidarSpatialRef\n\n\nE3DProductionParameters\n\n\nE3DProductionParameters::Save\n\n\nE3DProductsInfo\n\n\nELINE_CAL_DOIT\n\n\nENVI procedure\n\n\nENVI::CreateRaster\n\n\nENVI::CreateRasterMetadata\n\n\nENVI::CreateRasterSpatialRef\n\n\nENVI::ExportRaster\n\n\nENVI::GetOpenData\n\n\nENVI::GetPreference\n\n\nENVIRaster::Subset\n\n\nENVIRasterSpatialRefGLT\n\n\nENVIRasterSpatialRefPseudo\n\n\nENVIRasterSpatialRefStandard\n\n\nENVIRasterSpatialRefRPC\n\n\nENVISpectralLibrary::GetSpectrum\n\n\nENVITaskParameter\n\n\n\n\nENVITaskParameter::QueryProperty\n\n\nENVITaskParameter::Validate\n\n\n\n\nENVITask::Validate\n\n\nENVI_ACE_DOIT\n\n\nENVI_ADD_PROJECTION\n\n\nENVI_ASSIGN_HEADER_VALUE\n\n\nENVI_BATCH_EXIT\n\n\nENVI_BATCH_INIT\n\n\nENVI_BUFFER_ZONE_DOIT\n\n\nENVI_CAL_DOIT\n\n\nENVI_CONVERT_FILE_COORDINATES\n\n\nENVI_CONVERT_FILE_MAP_PROJECTION\n\n\nENVI_CONVERT_PROJECTION_COORDINATES\n\n\nENVI_DEFAULT_STRETCH_CREATE\n\n\nENVI_DEFINE_ROI\n\n\nENVI_ENTER_DATA\n\n\nENVI_FILE_QUERY\n\n\nENVI_FX_SEGMENTONLY_DOIT\n\n\nENVI_GET_DATA\n\n\nENVI_GET_HEADER_VALUE\n\n\nENVI_GET_MAP_INFO\n\n\nENVI_GET_PATH\n\n\nENVI_GET_PROJECTION\n\n\nENVI_GET_ROI\n\n\nENVI_GET_ROI_DATA\n\n\nENVI_GET_ROI_INFORMATION\n\n\nENVI_GET_SLICE\n\n\nENVI_GET_TILE\n\n\nENVI_GS_SHARPEN_DOIT\n\n\nENVI_ICA_DOIT\n\n\nENVI_INIT_TILE\n\n\nENVI_IO_ERROR\n\n\nENVI_LAYER_STACKING_DOIT\n\n\nENVI_MAP_INFO_CREATE\n\n\nENVI_MASK_APPLY_DOIT\n\n\nENVI_OPEN_DATA_FILE\n\n\nENVI_OPEN_FILE\n\n\nENVI_PC_SHARPEN_DOIT\n\n\nENVI_PICKFILE\n\n\nENVI_QUAC_DOIT\n\n\nENVI_QUERY_VERSION\n\n\nENVI_REPORT_ERROR\n\n\nENVI_RESTORE_ROIS\n\n\nROI_THRESH_DOIT\n\n\nENVI_ROI_TO_IMAGE_DOIT\n\n\nENVI_RXD_DOIT\n\n\nENVI_SAVE_ROIS\n\n\nENVI_SEGMENT_DOIT\n\n\nENVI_SELECT\n\n\nENVI_SENSOR_TYPE\n\n\nENVI_SET_INHERITANCE\n\n\nENVI_SPECTRAL_RESAMPLING_DOIT\n\n\nENVI_STATS_DOIT\n\n\nENVI_SUBSPACE_BACKGROUND_STATS_DOIT\n\n\nENVI_SUM_DATA_DOIT\n\n\nENVI_TILE_DONE\n\n\nENVI_TOGGLE_CATCH\n\n\nENVI_VEG_INDEX_AVAILABLE_INDICES\n\n\nENVI_VEG_INDEX_DOIT\n\n\nENVI_VEG_SUPPRESS_DOIT\n\n\nENVI_WRITE_ENVI_FILE\n\n\nENVI_WRITE_FILE_HEADER\n\n\nGAINOFF_DOIT\n\n\nHANDLE_VALUE\n\n\nMAGIC_MEM_CHECK\n\n\nMATCH_FILTER_DOIT\n\n\nMATCH_FILTER_MT_DOIT\n\n\nMNF_DOIT\n\n\nMOSAIC_DOIT\n\n\nNDVI_DOIT\n\n\nPC_ROTATE\n\n\nPPI_DOIT\n\n\nRESIZE_DOIT\n\n\nROI_THRESH_DOIT\n\n\nSTRETCH_DOIT\n\n\nTMCAL_DOIT\n\n\nTOPO_DOIT\n\n\nTOPO_FEATURE_DOIT\n\n\nUNMIX_DOIT\n\n\nVAX_IEEE_DOIT\n\n\n\n\nVirtual Rasters\n\n\n\n\nENVIBandMaxSubsetRaster\n\n\n\n\nENVIBandMaxSubsetRaster::Dehydrate\n\n\nENVIBandMaxSubsetRaster::Hydrate\n\n\n\n\nENVIBinaryGTThresholdRaster\n\n\n\n\nENVIBinaryGTThresholdRaster::Dehydrate\n\n\nENVIBinaryGTThresholdRaster::Hydrate\n\n\n\n\nENVIBinaryLTThresholdRaster\n\n\n\n\nENVIBinaryLTThresholdRaster::Dehydrate\n\n\nENVIBinaryLTThresholdRaster::Hydrate\n\n\n\n\nENVICalibrateRaster\n\n\n\n\nENVICalibrateRaster::Dehydrate\n\n\nENVICalibrateRaster::Hydrate\n\n\n\n\nENVICastRaster\n\n\n\n\nENVICastRaster::Dehydrate\n\n\nENVICastRaster::Hydrate\n\n\n\n\nENVIDataValuesMaskRaster\n\n\n\n\nENVIDataValuesMaskRaster::Dehydrate\n\n\nENVIDataValuesMaskRaster::Hydrate\n\n\n\n\nENVIDimensionalityExpansionRaster\n\n\n\n\nENVIDimensionalityExpansionRaster::Dehydrate\n\n\nENVIDimensionalityExpansionRaster::Hydrate\n\n\n\n\nENVIEqualizationStretchRaster\n\n\n\n\nENVIEqualizationStretchRaster::Dehydrate\n\n\nENVIEqualizationStretchRaster::Hydrate\n\n\n\n\nENVIFirstOrderEntropyTextureRaster\n\n\n\n\nENVIFirstOrderEntropyTextureRaster::Dehydrate\n\n\nENVIFirstOrderEntropyTextureRaster::Hydrate\n\n\n\n\nENVIGainOffsetRaster\n\n\n\n\nENVIGainOffsetRaster::Dehydrate\n\n\nENVIGainOffsetRaster::Hydrate\n\n\n\n\nENVIGainOffsetWithThresholdRaster\n\n\n\n\nENVIGainOffsetWithThresholdRaster::Dehydrate\n\n\nENVIGainOffsetWithThresholdRaster::Hydrate\n\n\n\n\nENVIGaussianStretchRaster\n\n\n\n\nENVIGaussianStretchRaster::Dehydrate\n\n\nENVIGaussianStretchRaster::Hydrate\n\n\n\n\nENVIHighClipRaster\n\n\n\n\nENVIHighClipRaster::Dehydrate\n\n\nENVIHighClipRaster::Hydrate\n\n\n\n\nENVIIrregularGridMetaspatialRaster\n\n\n\n\nENVIIrregularGridMetaspatialRaster::Dehydrate\n\n\nENVIIrregularGridMetaspatialRaster::Hydrate\n\n\n\n\nENVILabelEntropyTextureRaster\n\n\n\n\nENVILabelEntropyTextureRaster::Dehydrate\n\n\nENVILabelEntropyTextureRaster::Hydrate\n\n\n\n\nENVILayerStackRaster\n\n\n\n\nENVILayerStackRaster::Dehydrate\n\n\nENVILayerStackRaster::Hydrate\n\n\n\n\nENVILinearPercentStretchRaster\n\n\n\n\nENVILinearPercentStretchRaster::Dehydrate\n\n\nENVILinearPercentStretchRaster::Hydrate\n\n\n\n\nENVILinearRangeStretchRaster\n\n\n\n\nENVILinearRangeStretchRaster::Dehydrate\n\n\nENVILinearRangeStretchRaster::Hydrate\n\n\n\n\nENVILogStretchRaster\n\n\n\n\nENVILogStretchRaster::Dehydrate\n\n\nENVILogStretchRaster::Hydrate\n\n\n\n\nENVILowClipRaster\n\n\n\n\nENVILowClipRaster::Dehydrate\n\n\nENVILowClipRaster::Hydrate\n\n\n\n\nENVIMaskRaster\n\n\n\n\nENVIMaskRaster::Dehydrate\n\n\nENVIMaskRaster::Hydrate\n\n\n\n\nENVIMetaspatialRaster\n\n\n\n\nENVIMetaspatialRaster::Dehydrate\n\n\nENVIMetaspatialRaster::Hydrate\n\n\n\n\nENVIMetaspectralRaster\n\n\n\n\nENVIMetaspectralRaster::Dehydrate\n\n\nENVIMetaspectralRaster::Hydrate\n\n\n\n\nENVIMirrorRaster\n\n\n\n\nENVIMirrorRaster::Dehydrate\n\n\nENVIMirrorRaster::Hydrate\n\n\n\n\nENVIMosaicRaster\n\n\n\n\nENVIMosaicRaster::Dehydrate\n\n\nENVIMosaicRaster::Hydrate\n\n\nENVIMosaicRaster::SaveSeamPolygons\n\n\n\n\nENVINNDiffusePanSharpeningRaster\n\n\n\n\nENVINNDiffusePanSharpeningRaster::Dehydrate\n\n\nENVINNDiffusePanSharpeningRaster::Hydrate\n\n\n\n\nENVIOptimizedLinearStretchRaster\n\n\n\n\nENVIOptimizedLinearStretchRaster::Dehydrate\n\n\nENVIOptimizedLinearStretchRaster::Hydrate\n\n\n\n\nENVIPixelwiseBandMathRaster\n\n\n\n\nENVIPixelwiseBandMathRaster::Dehydrate\n\n\nENVIPixelwiseBandMathRaster::Hydrate\n\n\n\n\nENVIQUACRaster\n\n\n\n\nENVIQUACRaster::Dehydrate\n\n\nENVIQUACRaster::Hydrate\n\n\n\n\nENVIRadarBackscatterRaster\n\n\n\n\nENVIRadarBackscatterRaster::Dehydrate\n\n\nENVIRadarBackscatterRaster::Hydrate\n\n\n\n\nENVIRankStrengthTextureRaster\n\n\n\n\nENVIRankStrengthTextureRaster::Dehydrate\n\n\nENVIRankStrengthTextureRaster::Hydrate\n\n\n\n\nENVIReprojectRaster\n\n\n\n\nENVIReprojectRaster::Dehydrate\n\n\nENVIReprojectRaster::Hydrate\n\n\n\n\nENVIResampleRaster\n\n\n\n\nENVIResampleRaster::Dehydrate\n\n\nENVIResampleRaster::Hydrate\n\n\n\n\nENVIRGBToHSIRaster\n\n\n\n\nENVIRGBToHSIRaster::Dehydrate\n\n\nENVIRGBToHSIRaster::Hydrate\n\n\n\n\nENVIROIMaskRaster\n\n\n\n\nENVIROIMaskRaster::Dehydrate\n\n\nENVIROIMaskRaster::Hydrate\n\n\n\n\nENVIRootStretchRaster\n\n\n\n\nENVIRootStretchRaster::Dehydrate\n\n\nENVIRootStretchRaster::Hydrate\n\n\n\n\nENVISpatialGridRaster\n\n\n\n\nENVISpatialGridRaster::Dehydrate\n\n\nENVISpatialGridRaster::Hydrate\n\n\n\n\nENVISpectralIndexRaster\n\n\n\n\nENVISpectralIndexRaster::Dehydrate\n\n\nENVISpectralIndexRaster::Hydrate\n\n\n\n\nENVISubsetRaster\n\n\n\n\nENVISubsetRaster::Dehydrate\n\n\nENVISubsetRaster::Hydrate\n\n\n\n\nENVITransposeRaster\n\n\n\n\nENVITransposeRaster::Dehydrate\n\n\nENVITransposeRaster::Hydrate\n\n\n\n\nENVIVectorMaskRaster\n\n\n\n\nENVIVectorMaskRaster::Dehydrate\n\n\nENVIVectorMaskRaster::Hydrate\n\n\n\n\n\n\nPython Tools\n\n\n\n\nENVI Py for ArcGIS\n\n\nENVI Py Engine\n\n\n\n\n\n\nTutorials\n\n\n\n\nBasic Hyperspectral Analysis\n\n\nBurn Indices\n\n\nClassification Workflow\n\n\nClassification Tutorial 1: Create an Attribute Image\n\n\nClassification Tutorial 2: Collect Training Data\n\n\nCreate and Process a LiDAR Project\n\n\nCrop Counting and Metrics\n\n\nCustom Tasks\n\n\nEO-1 Hyperion Vegetation Analysis\n\n\nFeature Extraction with Example-Based Classification\n\n\nFeature Extraction with Rule-Based Classification\n\n\nGenerate Point Clouds and DSM\n\n\nGetting Started with ENVI\n\n\nHyperspectral Analysis: SAM and SFF\n\n\nImage Registration\n\n\nLandsat Time Series\n\n\nMosaic Tutorial: Advanced Workflow\n\n\nPreprocessing AVIRIS Data\n\n\nRPC Orthorectification\n\n\nRigorous Orthorectification\n\n\nRunning ENVI Analytics in ArcGIS Pro\n\n\nSentinel-2 Time Series Analysis\n\n\nSentinel-3 Marine Data\n\n\nThematic Change Detection\n\n\nInteractive Viewshed Analysis\n\n\nWorking With ENVI Servers\n\n\nLiDAR Code Examples\n\n\n\n\nColor Point Cloud Sample Code\n\n\nMap Forest Density Sample Code\n\n\nReproject LAS File Sample Code\n\n\n\n\n\n\nAbout ENVI\n\n\n\n\nSystem Requirements\n\n\nFeature Support\n\n\nLegal and Copyright Notices\n\n\nContact Us\n\n\n\n\nPreferences\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \nVideo Tutorial\n \nSpatio Temporal Analysis in ENVI\nFeatured Help Article\nHow does IDL release Virtual Memory?\nIDL does free its dynamic memory when it is done with it, and the IDL code has consistency checks that"
+  },
+  {
+    "abbreviation": "DVI",
+    "name": "Difference Vegetation Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "EVI",
+    "name": "Enhanced Vegetation Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "GEMI",
+    "name": "Global Environmental Monitoring Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "GARI",
+    "name": "Green Atmospherically Resistant Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "GCI",
+    "name": "Green Chlorophyll Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "GDVI",
+    "name": "Green Difference Vegetation Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "GLI",
+    "name": "Green Leaf Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "GNDVI",
+    "name": "Green Normalized Difference Vegetation Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "GOSAVI",
+    "name": "Green Optimized Soil Adjusted Vegetation Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "GRVI",
+    "name": "Green Ratio Vegetation Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "GSAVI",
+    "name": "Green Soil Adjusted Vegetation Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "GVI",
+    "name": "Green Vegetation Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "IPVI",
+    "name": "Infrared Percentage Vegetation Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "LAI",
+    "name": "Leaf Area Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "LCI",
+    "name": "Leaf Chlorophyll Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "MNLI",
+    "name": "Modified Non-Linear Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "MSR",
+    "name": "Modified Simple Ratio",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "NLI",
+    "name": "Non-Linear Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "NDVI",
+    "name": "Normalized Difference Vegetation Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "NPCI",
+    "name": "Normalized Pigment Chlorophyll Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "OSAVI",
+    "name": "Optimized Soil Adjusted Vegetation Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "RDVI",
+    "name": "Renormalized Difference Vegetation Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "SAVI",
+    "name": "Soil Adjusted Vegetation Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "SR",
+    "name": "Simple Ratio",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "SGI",
+    "name": "Sum Green Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "TDVI",
+    "name": "Transformed Difference Vegetation Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "TGI",
+    "name": "Triangular Greenness Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "VARI",
+    "name": "Visible Atmospherically Resistant Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "WDRVI",
+    "name": "Wide Dynamic Range Vegetation Index",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html"
+  },
+  {
+    "abbreviation": "UAV",
+    "name": "Because this index measures red, green, and blue wavelengths, it is suitable for use with unmanned aerial vehicle",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html",
+    "reference": "Hunt, E., C. Daughtry, J. Eitel, and D. Long. \"Remote Sensing Leaf Chlorophyll Content Using a Visible Band Index.\""
+  },
+  {
+    "abbreviation": "ROI",
+    "name": "Region of Interest",
+    "category": "Broadband Greenness",
+    "category_cn": "Broadband Greenness",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/broadbandgreenness.html",
+    "reference": "Vector Records Background"
+  },
+  {
+    "abbreviation": "PRI",
+    "name": "Photochemical Reflectance Index",
+    "category": "Light Use Efficiency",
+    "category_cn": "Light Use Efficiency",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/lightuseefficiency.html",
+    "reference": "Penuelas, J., I. Filella, and J. Gamon. \"Assessment of photosynthetic radiation-use efficiency with spectral reflectance.\""
+  },
+  {
+    "abbreviation": "SIPI",
+    "name": "Structure Insensitive Pigment Index",
+    "category": "Light Use Efficiency",
+    "category_cn": "Light Use Efficiency",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/lightuseefficiency.html",
+    "reference": "Penuelas, J., F. Baret, and I. Filella. \"Semi-Empirical Indices to Assess Carotenoids/Chlorophyll-a Ratio from Leaf Spectral Reflectance. \""
+  },
+  {
+    "abbreviation": "RGRI",
+    "name": "Red Green Ratio Index",
+    "category": "Light Use Efficiency",
+    "category_cn": "Light Use Efficiency",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/lightuseefficiency.html",
+    "reference": "Gamon, J., and J. Surfus. \"Assessing Leaf Pigment Content and Activity With a Reflectometer.\""
+  },
+  {
+    "abbreviation": "NDNI",
+    "name": "Normalized Difference Nitrogen Index",
+    "category": "Canopy Nitrogen",
+    "category_cn": "Canopy Nitrogen",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/canopynitrogen.html",
+    "value_range": "from 0 to 1 will yield the most accurate result",
+    "reference": "reflectance at 1680 nm, which should contain a similar signal due to foliar biomass, but without the influence of nitrogen absorption. The NDNI is experimental, but it does show strong sensitivity to changing nitrogen status when the canopy is green (not senescent) and closed in architecture. Applications include precision agriculture, ecosystem analysis, and forest management.",
+    "wavelengths_nm": [
+      "510",
+      "680"
+    ]
+  },
+  {
+    "abbreviation": "DWSI",
+    "name": "Disease Water Stress Index",
+    "category": "Canopy Water Content",
+    "category_cn": "Canopy Water Content",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/canopywatercontent.html"
+  },
+  {
+    "abbreviation": "MSI",
+    "name": "Moisture Stress Index",
+    "category": "Canopy Water Content",
+    "category_cn": "Canopy Water Content",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/canopywatercontent.html"
+  },
+  {
+    "abbreviation": "NDII",
+    "name": "Normalized Difference Infrared Index",
+    "category": "Canopy Water Content",
+    "category_cn": "Canopy Water Content",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/canopywatercontent.html"
+  },
+  {
+    "abbreviation": "NDMSI",
+    "name": "Normalized Difference Moisture Index",
+    "category": "Canopy Water Content",
+    "category_cn": "Canopy Water Content",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/canopywatercontent.html"
+  },
+  {
+    "abbreviation": "NDPI",
+    "name": "Normalized Difference Pond Index",
+    "category": "Canopy Water Content",
+    "category_cn": "Canopy Water Content",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/canopywatercontent.html"
+  },
+  {
+    "abbreviation": "NDWI",
+    "name": "Normalized Difference Water Index",
+    "category": "Canopy Water Content",
+    "category_cn": "Canopy Water Content",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/canopywatercontent.html"
+  },
+  {
+    "abbreviation": "NMDI",
+    "name": "Normalized Multi-band Drought Index",
+    "category": "Canopy Water Content",
+    "category_cn": "Canopy Water Content",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/canopywatercontent.html"
+  },
+  {
+    "abbreviation": "SWI",
+    "name": "Simple Water Index",
+    "category": "Canopy Water Content",
+    "category_cn": "Canopy Water Content",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/canopywatercontent.html"
+  },
+  {
+    "abbreviation": "WBI",
+    "name": "Water Band Index",
+    "category": "Canopy Water Content",
+    "category_cn": "Canopy Water Content",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/canopywatercontent.html"
+  },
+  {
+    "abbreviation": "WRI",
+    "name": "Water Ratio Index",
+    "category": "Canopy Water Content",
+    "category_cn": "Canopy Water Content",
+    "source": "ENVI Documentation",
+    "url": "https://www.nv5geospatialsoftware.com/docs/canopywatercontent.html"
+  }
+]

@@ -1,0 +1,506 @@
+[
+  {
+    "abbreviation": "DVI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaDVI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "EVI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaEVI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "FCI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaFCI2.png",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "GEMI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaGEMI2.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "GARI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaGARI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "GCI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaGCI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "GDVI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaGDVI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "GLI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaGLI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "GNDVI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaGNDVI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "GOSAVI",
+    "name": "OSAVI",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaGOSAVI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "GRVI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaGRVI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "GSAVI",
+    "name": "SAVI",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaGSAVI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "GVI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaGVI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "IPVI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaIPVI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "LAI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaLAI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "LCI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaLCI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "MNLI",
+    "name": "Soil Adjusted Vegetation Index (SAVI)",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaMNLI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "MSAVI",
+    "name": "Soil Adjusted Vegetation Index (SAVI)",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaMSAVI2.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "MSR",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaMSR.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "NLI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaNLI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "NDVI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaNDVI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "NPCI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaNPCI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "OSAVI",
+    "name": "Soil Adjusted Vegetation Index (SAVI)",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaOSAVI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "RDVI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaRDVI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "SAVI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaSAVI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "SR",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaSR.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "TDVI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaTDVI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "TGI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaTGI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "VARI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaVARI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "WDRVI",
+    "name": "",
+    "category": "Broadband Greenness",
+    "category_cn": "宽带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaWDRVI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "ARVI",
+    "name": "",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaARVI1.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "MCARI",
+    "name": "",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaMCARI2.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "MRENDVI",
+    "name": "Red Edge NDVI",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaMRENDVI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "MRESR",
+    "name": "simple ratio (SR)",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaMRESR.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "MTVI",
+    "name": "",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaMTVI2.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "RENDVI",
+    "name": "NDVI",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaRENDVI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "TCARI",
+    "name": "",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaTCARI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "TVI",
+    "name": "",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaTVI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "VREI",
+    "name": "",
+    "category": "Narrowband Greenness",
+    "category_cn": "窄带绿度",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaVREI2.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "PRI",
+    "name": "",
+    "category": "Light Use Efficiency",
+    "category_cn": "光利用效率",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaPRI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "SIPI",
+    "name": "",
+    "category": "Light Use Efficiency",
+    "category_cn": "光利用效率",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaSIPI1.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "RGR",
+    "name": "",
+    "category": "Light Use Efficiency",
+    "category_cn": "光利用效率",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaRGR.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "NDNI",
+    "name": "",
+    "category": "Canopy Nitrogen",
+    "category_cn": "冠层氮素",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaNDNI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "ARI",
+    "name": "",
+    "category": "Leaf Pigments",
+    "category_cn": "叶片色素",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaARI2.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "CRI",
+    "name": "",
+    "category": "Leaf Pigments",
+    "category_cn": "叶片色素",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaCRI2.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "DWSI",
+    "name": "",
+    "category": "Canopy Water Content",
+    "category_cn": "冠层水分",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaDWSI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "LWVI",
+    "name": "",
+    "category": "Canopy Water Content",
+    "category_cn": "冠层水分",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaLWVI2.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "MSI",
+    "name": "",
+    "category": "Canopy Water Content",
+    "category_cn": "冠层水分",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaMSI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "NDII",
+    "name": "",
+    "category": "Canopy Water Content",
+    "category_cn": "冠层水分",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaNDII.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "NDMSI",
+    "name": "",
+    "category": "Canopy Water Content",
+    "category_cn": "冠层水分",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaNDMSI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "NDPI",
+    "name": "",
+    "category": "Canopy Water Content",
+    "category_cn": "冠层水分",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaNDPI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "NDWI",
+    "name": "",
+    "category": "Canopy Water Content",
+    "category_cn": "冠层水分",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaNDWI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "NMDI",
+    "name": "",
+    "category": "Canopy Water Content",
+    "category_cn": "冠层水分",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaNMDI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "SWI",
+    "name": "",
+    "category": "Canopy Water Content",
+    "category_cn": "冠层水分",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaSWI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "WBI",
+    "name": "",
+    "category": "Canopy Water Content",
+    "category_cn": "冠层水分",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaWBI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  },
+  {
+    "abbreviation": "WRI",
+    "name": "",
+    "category": "Canopy Water Content",
+    "category_cn": "冠层水分",
+    "formula_image": "https://www.nv5geospatialsoftware.com/docs/html/images/Spectral/SpectralIndexFormulaWRI.gif",
+    "description": "",
+    "source": "ENVI Documentation"
+  }
+]
