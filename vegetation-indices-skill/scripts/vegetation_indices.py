@@ -455,7 +455,7 @@ OTHER_DATABASES = [
 def load_data():
     """加载所有数据"""
     data = {}
-    for fname in ["indices.json", "sensors.json", "applications.json", "envi_vegetation_indices.json"]:
+    for fname in ["indices.json", "sensors.json", "applications.json", "envi_vegetation_indices.json", "sentinel_hub_indices.json", "modis_vi_products.json"]:
         fpath = os.path.join(DATA_DIR, fname)
         if os.path.exists(fpath):
             with open(fpath, "r", encoding="utf-8") as f:
@@ -584,16 +584,26 @@ def get_statistics(data):
     """获取数据库统计信息"""
     idb_count = len(data.get("indices", []))
     envi_count = len(data.get("envi_vegetation_indices", []))
+    sentinel_count = len(data.get("sentinel_hub_indices", []))
+    modis_data = data.get("modis_vi_products", {})
+    modis_count = len(modis_data.get("products", []))
     return {
-        "total_indices": idb_count + envi_count,
+        "total_indices": idb_count + envi_count + sentinel_count,
         "idb_indices": idb_count,
         "envi_indices": envi_count,
+        "sentinel_indices": sentinel_count,
+        "modis_products": modis_count,
         "total_sensors": len(data.get("sensors", [])),
         "total_applications": len(data.get("applications", [])),
-        "sources": ["IndexDatabase.de (IDB)", "ENVI Documentation (NV5)"],
+        "sources": [
+            "IndexDatabase.de (IDB)",
+            "ENVI Documentation (NV5)",
+            "Sentinel Hub Custom Scripts",
+            "NASA MODIS MOD13",
+        ],
         "source_url": BASE_URL,
-        "description": "遥感植被指数综合数据库（IDB + ENVI）",
-        "description_en": "A comprehensive database of remote sensing vegetation indices (IDB + ENVI)",
+        "description": "遥感植被指数综合数据库（IDB + ENVI + Sentinel + MODIS）",
+        "description_en": "A comprehensive database of remote sensing vegetation indices (IDB + ENVI + Sentinel + MODIS)",
     }
 
 
@@ -627,13 +637,16 @@ def main(args=None):
             "message": "用法 / Usage:\n"
                        "  python vegetation_indices.py <command> [args]\n"
                        "命令 / Commands:\n"
-                       "  search <关键词> [--limit N]  搜索指数 / Search indices\n"
-                       "  show <id>                    查看指数详情 / Show index details\n"
-                       "  applications                  列出应用领域 / List applications\n"
-                       "  sensors                       列出传感器 / List sensors\n"
-                       "  stats                         数据库统计 / Database statistics\n"
+                       "  search <关键词> [--limit N]  搜索IDB指数(519个) / Search IDB indices\n"
+                       "  envi [关键词] [--limit N]    搜索ENVI指数(56个) / Search ENVI indices\n"
+                       "  sentinel [关键词] [--limit N] 搜索Sentinel-2指数(248个) / Search Sentinel-2\n"
+                       "  modis [关键词] [--limit N]   查看MODIS产品(12个) / MODIS VI products\n"
+                       "  show <id>                    查看IDB指数详情 / Show IDB details\n"
+                       "  applications                  应用领域 / Applications\n"
+                       "  sensors                       传感器 / Sensors\n"
+                       "  stats                         统计 / Statistics\n"
                        "  databases                     其他数据库 / Other databases\n"
-                       "  help                         帮助信息 / Help",
+                       "  help                         帮助 / Help",
         }
     
     data = load_data()
@@ -761,6 +774,22 @@ def main(args=None):
                 "note": "已整合到本Skill的envi命令中",
                 "num_indices": 56,
             },
+            {
+                "name": "Sentinel Hub Custom Scripts",
+                "url": "https://sentinel-hub.github.io/custom-scripts/sentinel-2/indexdb/",
+                "description": "基于IDB数据为Sentinel-2卫星定制的遥感指数集合，包含248个指数的JavaScript实现。本Skill已爬取并整合",
+                "language": "英文/代码",
+                "note": "已整合到本Skill的sentinel命令中",
+                "num_indices": 248,
+            },
+            {
+                "name": "NASA MODIS Vegetation Index (MOD13)",
+                "url": "https://modis.gsfc.nasa.gov/data/dataprod/mod13.php",
+                "description": "NASA官方MODIS植被指数产品（NDVI/EVI），包括12个产品（16天/月度，250m-0.05°分辨率）。本Skill已爬取产品信息",
+                "language": "英文",
+                "note": "已整合到本Skill的modis命令中",
+                "num_products": 12,
+            },
         ]
         return {
             "success": True,
@@ -814,6 +843,91 @@ def main(args=None):
             "note": "ENVI公式图片可访问各指数的 formula_image 字段查看",
         }
     
+    elif command == "sentinel":
+        # Search Sentinel Hub indices
+        max_results = 20
+        query = ""
+        if len(args) > 1:
+            query_parts = []
+            i = 1
+            while i < len(args):
+                if args[i] == "--limit" and i + 1 < len(args):
+                    try:
+                        max_results = int(args[i + 1])
+                    except ValueError:
+                        pass
+                    i += 2
+                else:
+                    query_parts.append(args[i])
+                    i += 1
+            query = " ".join(query_parts).lower()
+        
+        sentinel_data = data.get("sentinel_hub_indices", [])
+        results = []
+        
+        for idx in sentinel_data:
+            if not query or query in idx.get("abbreviation", "").lower() or query in idx.get("name", "").lower():
+                results.append(idx)
+        
+        results = results[:max_results]
+        
+        for r in results:
+            zh = get_zh_name(r.get("abbreviation", ""))
+            if zh:
+                r["zh_name"] = zh
+        
+        return {
+            "success": True,
+            "source": "Sentinel Hub Custom Scripts",
+            "source_url": "https://sentinel-hub.github.io/custom-scripts/sentinel-2/indexdb/",
+            "num_results": len(results),
+            "total_available": len(sentinel_data),
+            "sensor": "Sentinel-2",
+            "results": results,
+            "message": f"Sentinel-2数据库中找到 {len(results)} 个指数 / Found {len(results)} indices for Sentinel-2",
+            "note": "Sentinel-2专用指数列表，支持直接在Copernicus Browser中使用",
+        }
+    
+    elif command == "modis":
+        # Show MODIS VI products
+        modis_data = data.get("modis_vi_products", {})
+        products = modis_data.get("products", [])
+        algorithm = modis_data.get("algorithm", {})
+        
+        max_results = 20
+        query = ""
+        if len(args) > 1:
+            query_parts = []
+            i = 1
+            while i < len(args):
+                if args[i] == "--limit" and i + 1 < len(args):
+                    try:
+                        max_results = int(args[i + 1])
+                    except ValueError:
+                        pass
+                    i += 2
+                else:
+                    query_parts.append(args[i])
+                    i += 1
+            query = " ".join(query_parts).lower()
+        
+        filtered = products
+        if query:
+            filtered = [p for p in products if query in p.get("name", "").lower() or query in p.get("name_cn", "") or query in p.get("platform", "").lower() or query in p.get("spatial_resolution", "").lower()]
+        
+        filtered = filtered[:max_results]
+        
+        return {
+            "success": True,
+            "source": "NASA MODIS",
+            "source_url": "https://modis.gsfc.nasa.gov/data/dataprod/mod13.php",
+            "algorithm": algorithm,
+            "num_products": len(filtered),
+            "total_products": len(products),
+            "products": filtered,
+            "message": f"MODIS植被指数产品 {len(filtered)}/{len(products)} / MODIS VI Products {len(filtered)}/{len(products)}",
+        }
+    
     elif command == "help":
         return {
             "success": True,
@@ -821,6 +935,8 @@ def main(args=None):
                        "命令 / Commands:\n"
                        "  search <关键词> [--limit N]  搜索IDB指数（支持中英文）\n"
                        "  envi [关键词] [--limit N]    搜索ENVI植被指数（含公式）\n"
+                       "  sentinel [关键词] [--limit N] 搜索Sentinel-2专用指数(248个)\n"
+                       "  modis [关键词] [--limit N]   查看MODIS植被指数产品(12个)\n"
                        "  show <id>                    查看IDB指数详情（含原始链接）\n"
                        "  applications                 列出所有应用领域（含中文翻译）\n"
                        "  sensors                      列出所有传感器/卫星\n"

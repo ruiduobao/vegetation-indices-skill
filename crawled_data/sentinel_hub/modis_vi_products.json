@@ -1,0 +1,179 @@
+{
+  "products": [
+    {
+      "name": "MOD13Q1",
+      "name_cn": "MODIS植被指数16天250米",
+      "platform": "Terra",
+      "temporal_resolution": "16天",
+      "spatial_resolution": "250m",
+      "parameters": [
+        "NDVI",
+        "EVI"
+      ],
+      "source": "NASA MODIS",
+      "url": "https://modis.gsfc.nasa.gov/data/dataprod/mod13.php"
+    },
+    {
+      "name": "MYD13Q1",
+      "name_cn": "MODIS植被指数16天250米",
+      "platform": "Aqua",
+      "temporal_resolution": "16天",
+      "spatial_resolution": "250m",
+      "parameters": [
+        "NDVI",
+        "EVI"
+      ],
+      "source": "NASA MODIS",
+      "url": "https://modis.gsfc.nasa.gov/data/dataprod/mod13.php"
+    },
+    {
+      "name": "MOD13A1",
+      "name_cn": "MODIS植被指数16天500米",
+      "platform": "Terra",
+      "temporal_resolution": "16天",
+      "spatial_resolution": "500m",
+      "parameters": [
+        "NDVI",
+        "EVI"
+      ],
+      "source": "NASA MODIS",
+      "url": "https://modis.gsfc.nasa.gov/data/dataprod/mod13.php"
+    },
+    {
+      "name": "MYD13A1",
+      "name_cn": "MODIS植被指数16天500米",
+      "platform": "Aqua",
+      "temporal_resolution": "16天",
+      "spatial_resolution": "500m",
+      "parameters": [
+        "NDVI",
+        "EVI"
+      ],
+      "source": "NASA MODIS",
+      "url": "https://modis.gsfc.nasa.gov/data/dataprod/mod13.php"
+    },
+    {
+      "name": "MOD13A2",
+      "name_cn": "MODIS植被指数16天1公里",
+      "platform": "Terra",
+      "temporal_resolution": "16天",
+      "spatial_resolution": "1km",
+      "parameters": [
+        "NDVI",
+        "EVI"
+      ],
+      "source": "NASA MODIS",
+      "url": "https://modis.gsfc.nasa.gov/data/dataprod/mod13.php"
+    },
+    {
+      "name": "MYD13A2",
+      "name_cn": "MODIS植被指数16天1公里",
+      "platform": "Aqua",
+      "temporal_resolution": "16天",
+      "spatial_resolution": "1km",
+      "parameters": [
+        "NDVI",
+        "EVI"
+      ],
+      "source": "NASA MODIS",
+      "url": "https://modis.gsfc.nasa.gov/data/dataprod/mod13.php"
+    },
+    {
+      "name": "MOD13A3",
+      "name_cn": "MODIS植被指数月值1公里",
+      "platform": "Terra",
+      "temporal_resolution": "月度",
+      "spatial_resolution": "1km",
+      "parameters": [
+        "NDVI",
+        "EVI"
+      ],
+      "source": "NASA MODIS",
+      "url": "https://modis.gsfc.nasa.gov/data/dataprod/mod13.php"
+    },
+    {
+      "name": "MYD13A3",
+      "name_cn": "MODIS植被指数月值1公里",
+      "platform": "Aqua",
+      "temporal_resolution": "月度",
+      "spatial_resolution": "1km",
+      "parameters": [
+        "NDVI",
+        "EVI"
+      ],
+      "source": "NASA MODIS",
+      "url": "https://modis.gsfc.nasa.gov/data/dataprod/mod13.php"
+    },
+    {
+      "name": "MOD13C1",
+      "name_cn": "MODIS植被指数16天0.05度",
+      "platform": "Terra",
+      "temporal_resolution": "16天",
+      "spatial_resolution": "0.05° (~5.6km)",
+      "parameters": [
+        "NDVI",
+        "EVI"
+      ],
+      "source": "NASA MODIS",
+      "url": "https://modis.gsfc.nasa.gov/data/dataprod/mod13.php"
+    },
+    {
+      "name": "MYD13C1",
+      "name_cn": "MODIS植被指数16天0.05度",
+      "platform": "Aqua",
+      "temporal_resolution": "16天",
+      "spatial_resolution": "0.05° (~5.6km)",
+      "parameters": [
+        "NDVI",
+        "EVI"
+      ],
+      "source": "NASA MODIS",
+      "url": "https://modis.gsfc.nasa.gov/data/dataprod/mod13.php"
+    },
+    {
+      "name": "MOD13C2",
+      "name_cn": "MODIS植被指数月值0.05度",
+      "platform": "Terra",
+      "temporal_resolution": "月度",
+      "spatial_resolution": "0.05° (~5.6km)",
+      "parameters": [
+        "NDVI",
+        "EVI"
+      ],
+      "source": "NASA MODIS",
+      "url": "https://modis.gsfc.nasa.gov/data/dataprod/mod13.php"
+    },
+    {
+      "name": "MYD13C2",
+      "name_cn": "MODIS植被指数月值0.05度",
+      "platform": "Aqua",
+      "temporal_resolution": "月度",
+      "spatial_resolution": "0.05° (~5.6km)",
+      "parameters": [
+        "NDVI",
+        "EVI"
+      ],
+      "source": "NASA MODIS",
+      "url": "https://modis.gsfc.nasa.gov/data/dataprod/mod13.php"
+    }
+  ],
+  "algorithm": {
+    "name": "MODIS Vegetation Index Algorithm",
+    "name_cn": "MODIS植被指数算法",
+    "description": "MODIS vegetation indices are retrieved from daily, atmosphere-corrected, bidirectional surface reflectance. Uses MODIS-specific compositing method based on product quality assurance metrics. Constrained view angle approach selects pixel closest-to-nadir from two highest NDVI values.",
+    "description_cn": "MODIS植被指数从每日大气校正双向反射率产品中提取，使用基于质量评估指标的MODIS专用合成方法，从两个最高NDVI值中选择最接近天底角的像元。",
+    "ndvi_formula": "NDVI = (NIR - Red) / (NIR + Red)",
+    "evi_formula": "EVI = G * (NIR - Red) / (NIR + C1 * Red - C2 * Blue + L)",
+    "evi_parameters": "G=2.5, C1=6.0, C2=7.5, L=1.0",
+    "bands": {
+      "Red": "Band 1 (620-670nm)",
+      "NIR": "Band 2 (841-876nm)",
+      "Blue": "Band 3 (459-479nm)",
+      "Green": "Band 4 (545-565nm)"
+    },
+    "compositing_method": "Constrained View Angle Maximum Value Composite (CV-MVC)",
+    "temporal_resolution": "16天/月度",
+    "source": "NASA MODIS",
+    "url": "https://modis.gsfc.nasa.gov/data/dataprod/mod13.php"
+  }
+}
