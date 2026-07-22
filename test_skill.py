@@ -47,7 +47,62 @@ TEST_QUESTIONS = [
     {"query": "LAI", "type": "abbreviation", "desc": "Leaf Area Index"},
     {"query": "PRI", "type": "abbreviation", "desc": "Photochemical Reflectance Index"},
     {"query": "NDWI", "type": "abbreviation", "desc": "Water index"},
+    
+    # New: Application-oriented searches
+    {"query": "不透水面", "type": "application", "desc": "Application: impervious surface"},
+    {"query": "作物监测", "type": "application", "desc": "Application: crop monitoring"},
+    {"query": "火灾", "type": "application", "desc": "Application: fire"},
+    {"query": "水体", "type": "application", "desc": "Application: water"},
+    {"query": "干旱", "type": "application", "desc": "Application: drought"},
 ]
+
+
+def run_search(query, limit=5):
+    """Run the skill search command"""
+    try:
+        result = subprocess.run(
+            ["python", SKILL_SCRIPT, "search", query, "--limit", str(limit)],
+            capture_output=True, text=True, timeout=30,
+            cwd=SKILL_DIR
+        )
+        if result.returncode == 0:
+            return json.loads(result.stdout)
+        else:
+            return {"success": False, "error": result.stderr}
+    except Exception as e:
+        return {"success": False, "error": str(e)}
+
+
+def run_envi_search(query, limit=5):
+    """Run the ENVI search command"""
+    try:
+        result = subprocess.run(
+            ["python", SKILL_SCRIPT, "envi", query, "--limit", str(limit)],
+            capture_output=True, text=True, timeout=30,
+            cwd=SKILL_DIR
+        )
+        if result.returncode == 0:
+            return json.loads(result.stdout)
+        else:
+            return {"success": False, "error": result.stderr}
+    except Exception as e:
+        return {"success": False, "error": str(e)}
+
+
+def run_app_search(query, limit=5):
+    """Run the application search command"""
+    try:
+        result = subprocess.run(
+            ["python", SKILL_SCRIPT, "app", query, "--limit", str(limit)],
+            capture_output=True, text=True, timeout=30,
+            cwd=SKILL_DIR
+        )
+        if result.returncode == 0:
+            return json.loads(result.stdout)
+        else:
+            return {"success": False, "error": result.stderr}
+    except Exception as e:
+        return {"success": False, "error": str(e)}
 
 
 def run_search(query, limit=5):
@@ -110,7 +165,27 @@ def evaluate_result(question, result):
     
     # Check 3: Results contain relevant info
     results = result.get("results", [])
-    if results:
+    if question["type"] == "application":
+        apps = result.get("applications", [])
+        if apps:
+            first = apps[0]
+            has_name = bool(first.get("application") or first.get("application_en"))
+            has_indices = bool(first.get("indices"))
+            
+            if has_name:
+                score += 1
+            else:
+                issues.append("Application missing name")
+            
+            if has_indices:
+                score += 1.5
+            else:
+                issues.append("Application has no matched indices")
+            score += 0.5  # base for having results
+        else:
+            issues.append("No applications returned")
+    elif results:
+        first = results[0]
         first = results[0]
         has_name = bool(first.get("name") or first.get("abbreviation"))
         has_url = bool(first.get("url"))
@@ -157,6 +232,8 @@ def main():
         # Determine which search to use
         if question["type"] == "envi_specific":
             result = run_envi_search(question["query"])
+        elif question["type"] == "application":
+            result = run_app_search(question["query"])
         else:
             result = run_search(question["query"])
         

@@ -1,0 +1,439 @@
+{
+  "不透水面": {
+    "en": "Impervious Surface",
+    "abbrevs": [
+      "NDBBI",
+      "NDBI",
+      "NDBI2",
+      "NDBI3",
+      "WV-BI",
+      "ISI",
+      "UI",
+      "IBI",
+      "UBI",
+      "BAEI",
+      "BRBA",
+      "BRB"
+    ],
+    "description": "城市不透水面提取，区分建筑区与植被/水体",
+    "description_en": "Urban impervious surface extraction"
+  },
+  "城市扩张": {
+    "en": "Urban Expansion",
+    "abbrevs": [
+      "NDBBI",
+      "NDBI",
+      "NDBI2",
+      "WV-BI",
+      "IBI",
+      "UBI"
+    ],
+    "description": "监测城市扩张和建设用地变化",
+    "description_en": "Urban expansion monitoring"
+  },
+  "城市建筑": {
+    "en": "Urban Built-up",
+    "abbrevs": [
+      "NDBI",
+      "NDBBI",
+      "WV-BI",
+      "IBI"
+    ],
+    "description": "城市建筑用地识别",
+    "description_en": "Urban built-up area detection"
+  },
+  "植被覆盖": {
+    "en": "Vegetation Coverage",
+    "abbrevs": [
+      "NDVI",
+      "EVI",
+      "EVI2",
+      "GNDVI",
+      "SAVI",
+      "MSAVI",
+      "OSAVI",
+      "GSAVI",
+      "GOSAVI",
+      "GRVI",
+      "RVI",
+      "DVI"
+    ],
+    "description": "植被覆盖度监测，最基本的植被指数",
+    "description_en": "Vegetation coverage monitoring"
+  },
+  "植被绿度": {
+    "en": "Vegetation Greenness",
+    "abbrevs": [
+      "NDVI",
+      "EVI",
+      "GNDVI",
+      "GLI",
+      "TGI",
+      "ExG",
+      "CIVE",
+      "VEG"
+    ],
+    "description": "植被绿度测量，反映光合作用强度",
+    "description_en": "Vegetation greenness measurement"
+  },
+  "森林监测": {
+    "en": "Forest Monitoring",
+    "abbrevs": [
+      "NDVI",
+      "EVI",
+      "GNDVI",
+      "NBR",
+      "NBR2",
+      "RVI",
+      "EVI2",
+      "SAVI",
+      "MSAVI",
+      "NDMI"
+    ],
+    "description": "森林覆盖、健康状况和变化监测",
+    "description_en": "Forest cover and health monitoring"
+  },
+  "植被健康": {
+    "en": "Vegetation Health",
+    "abbrevs": [
+      "NDVI",
+      "EVI",
+      "NDMI",
+      "MSI",
+      "VCI",
+      "VH",
+      "GVMI"
+    ],
+    "description": "植被健康状况综合评估",
+    "description_en": "Vegetation health assessment"
+  },
+  "作物监测": {
+    "en": "Crop Monitoring",
+    "abbrevs": [
+      "NDVI",
+      "EVI",
+      "GNDVI",
+      "CIrededge",
+      "CIgreen",
+      "SAVI",
+      "MSAVI",
+      "NDRE",
+      "MTCI"
+    ],
+    "description": "作物长势监测和产量估算",
+    "description_en": "Crop growth monitoring"
+  },
+  "作物产量": {
+    "en": "Crop Yield",
+    "abbrevs": [
+      "NDVI",
+      "EVI",
+      "GNDVI",
+      "SAVI",
+      "CIrededge",
+      "NDRE",
+      "MTVCI"
+    ],
+    "description": "作物产量估算和预测",
+    "description_en": "Crop yield estimation"
+  },
+  "作物分类": {
+    "en": "Crop Classification",
+    "abbrevs": [
+      "NDVI",
+      "EVI",
+      "GNDVI",
+      "NDWI",
+      "NDBI"
+    ],
+    "description": "农作物类型分类识别",
+    "description_en": "Crop type classification"
+  },
+  "精准农业": {
+    "en": "Precision Agriculture",
+    "abbrevs": [
+      "NDVI",
+      "EVI",
+      "CIrededge",
+      "MCARI",
+      "MTCI",
+      "NDRE",
+      "CCCI",
+      "TCARI"
+    ],
+    "description": "精准农业管理决策支持",
+    "description_en": "Precision agriculture support"
+  },
+  "水分胁迫": {
+    "en": "Water Stress",
+    "abbrevs": [
+      "NDWI",
+      "MSI",
+      "CWSI",
+      "DSWI",
+      "DSWI-5",
+      "NDMI",
+      "NDII",
+      "GVMI",
+      "SIWSI"
+    ],
+    "description": "植被水分胁迫监测，用于干旱预警",
+    "description_en": "Vegetation water stress monitoring"
+  },
+  "干旱监测": {
+    "en": "Drought Monitoring",
+    "abbrevs": [
+      "NDWI",
+      "NDMI",
+      "VCI",
+      "TCI",
+      "NMDI",
+      "MSI",
+      "CWSI",
+      "DSWI",
+      "NDVI",
+      "EVI"
+    ],
+    "description": "农业干旱和气象干旱综合监测",
+    "description_en": "Agricultural and meteorological drought monitoring"
+  },
+  "土壤水分": {
+    "en": "Soil Moisture",
+    "abbrevs": [
+      "NDWI",
+      "LSM",
+      "SWCI",
+      "SMCI",
+      "NDMI"
+    ],
+    "description": "土壤含水量估算",
+    "description_en": "Soil moisture estimation"
+  },
+  "叶绿素": {
+    "en": "Chlorophyll",
+    "abbrevs": [
+      "CIgreen",
+      "CIrededge",
+      "CIrededge710",
+      "MCARI",
+      "MCARI1",
+      "MCARI2",
+      "MTCI",
+      "TCARI",
+      "NDRE",
+      "Chlgreen",
+      "Chlred-edge",
+      "CVI",
+      "CARI",
+      "CARI2"
+    ],
+    "description": "叶片和冠层叶绿素含量估算",
+    "description_en": "Leaf/canopy chlorophyll content estimation"
+  },
+  "光合作用": {
+    "en": "Photosynthesis",
+    "abbrevs": [
+      "PRI",
+      "SIPI",
+      "SIPI1",
+      "SIPI3",
+      "NPCI",
+      "NDVI",
+      "EVI"
+    ],
+    "description": "植被光合作用活性监测",
+    "description_en": "Photosynthesis activity monitoring"
+  },
+  "叶面积指数": {
+    "en": "Leaf Area Index",
+    "abbrevs": [
+      "NDVI",
+      "EVI",
+      "SAVI",
+      "MSAVI",
+      "MTVI",
+      "MTVI2",
+      "LAI",
+      "LAIDI"
+    ],
+    "description": "叶面积指数(LAI)估算",
+    "description_en": "Leaf Area Index estimation"
+  },
+  "火灾监测": {
+    "en": "Fire Monitoring",
+    "abbrevs": [
+      "NBR",
+      "NBR2",
+      "BAI",
+      "NBRT1",
+      "NBRT2",
+      "CSI",
+      "GEMI"
+    ],
+    "description": "森林火灾监测和火烧迹地识别",
+    "description_en": "Forest fire monitoring and burn scar detection"
+  },
+  "火烧迹地": {
+    "en": "Burn Scar",
+    "abbrevs": [
+      "NBR",
+      "NBR2",
+      "BAI",
+      "NBRT1",
+      "NBRT2"
+    ],
+    "description": "火灾后火烧迹地提取和评估",
+    "description_en": "Burn scar extraction and assessment"
+  },
+  "水体监测": {
+    "en": "Water Monitoring",
+    "abbrevs": [
+      "NDWI",
+      "MNDWI",
+      "NDMI",
+      "WRI",
+      "WBI",
+      "SWI",
+      "NDSI"
+    ],
+    "description": "地表水体提取和监测",
+    "description_en": "Surface water extraction and monitoring"
+  },
+  "水体提取": {
+    "en": "Water Extraction",
+    "abbrevs": [
+      "NDWI",
+      "MNDWI",
+      "AWEI",
+      "WRI",
+      "WBI"
+    ],
+    "description": "从遥感影像中提取水体范围",
+    "description_en": "Water body extraction from imagery"
+  },
+  "水质监测": {
+    "en": "Water Quality",
+    "abbrevs": [
+      "NDWI",
+      "NDSI",
+      "FAI",
+      "CI",
+      "TCI"
+    ],
+    "description": "水体浊度、叶绿素a等水质参数估算",
+    "description_en": "Water quality parameter estimation"
+  },
+  "雪盖监测": {
+    "en": "Snow Cover",
+    "abbrevs": [
+      "NDSI",
+      "NDSI2",
+      "S3",
+      "SNW",
+      "SIND"
+    ],
+    "description": "积雪覆盖范围监测",
+    "description_en": "Snow cover monitoring"
+  },
+  "冰川监测": {
+    "en": "Glacier Monitoring",
+    "abbrevs": [
+      "NDSI",
+      "NBR"
+    ],
+    "description": "冰川和冰盖变化监测",
+    "description_en": "Glacier and ice cover monitoring"
+  },
+  "土壤监测": {
+    "en": "Soil Monitoring",
+    "abbrevs": [
+      "BSI",
+      "NBSI",
+      "BI",
+      "BI2",
+      "SI",
+      "CLAY"
+    ],
+    "description": "裸土识别和土壤退化监测",
+    "description_en": "Bare soil identification and degradation monitoring"
+  },
+  "地质矿物": {
+    "en": "Geology/Mineral",
+    "abbrevs": [
+      "ALUI",
+      "CALI",
+      "CLAI",
+      "DOLI",
+      "KAI1",
+      "KAI2",
+      "KAI3",
+      "MONI",
+      "MUSI",
+      "MAGI",
+      "PHEI"
+    ],
+    "description": "地质矿物识别和岩性分类",
+    "description_en": "Geological mineral identification"
+  },
+  "生物量": {
+    "en": "Biomass",
+    "abbrevs": [
+      "NDVI",
+      "EVI",
+      "GNDVI",
+      "SAVI",
+      "MSAVI",
+      "RVI",
+      "DVI"
+    ],
+    "description": "植被地上生物量估算",
+    "description_en": "Above-ground biomass estimation"
+  },
+  "碳储量": {
+    "en": "Carbon Stock",
+    "abbrevs": [
+      "NDVI",
+      "EVI",
+      "LAI",
+      "FAPAR",
+      "GPP",
+      "NPP"
+    ],
+    "description": "碳储量和碳循环研究",
+    "description_en": "Carbon stock and cycling research"
+  },
+  "城市热岛": {
+    "en": "Urban Heat Island",
+    "abbrevs": [
+      "LST",
+      "UTFVI",
+      "UHI"
+    ],
+    "description": "城市热岛效应监测",
+    "description_en": "Urban heat island monitoring"
+  },
+  "洪涝灾害": {
+    "en": "Flood Disaster",
+    "abbrevs": [
+      "NDWI",
+      "MNDWI",
+      "AWEI",
+      "NDMI"
+    ],
+    "description": "洪涝灾害监测和损失评估",
+    "description_en": "Flood monitoring and damage assessment"
+  },
+  "病虫害": {
+    "en": "Disease/Pest",
+    "abbrevs": [
+      "DSWI",
+      "DSWI-5",
+      "SIPI",
+      "PRI",
+      "NDVI",
+      "EVI"
+    ],
+    "description": "作物病虫害早期检测",
+    "description_en": "Crop disease and pest early detection"
+  }
+}
