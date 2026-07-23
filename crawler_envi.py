@@ -17,10 +17,11 @@ HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.5",
 }
-PROXIES = {
-    "http": "http://127.0.0.1:7897",
-    "https": "http://127.0.0.1:7897",
-}
+PROXIES = None
+if os.environ.get("VEGETATION_SEARCH_USE_PROXY") == "1":
+    _proxy_url = os.environ.get("HTTP_PROXY") or os.environ.get("HTTPS_PROXY")
+    if _proxy_url:
+        PROXIES = {"http": _proxy_url, "https": _proxy_url}
 
 OUTPUT_DIR = "crawled_data/envi_indices"
 os.makedirs(OUTPUT_DIR, exist_ok=True)

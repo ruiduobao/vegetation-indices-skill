@@ -12,7 +12,11 @@ import re
 import os
 
 BASE_URL = "https://sentinel-hub.github.io/custom-scripts"
-PROXIES = {'http': 'http://127.0.0.1:7897', 'https': 'http://127.0.0.1:7897'}
+PROXIES = None
+if os.environ.get("VEGETATION_SEARCH_USE_PROXY") == "1":
+    _proxy_url = os.environ.get("HTTP_PROXY") or os.environ.get("HTTPS_PROXY")
+    if _proxy_url:
+        PROXIES = {"http": _proxy_url, "https": _proxy_url}
 HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
 
 OUTPUT_DIR = "crawled_data/sentinel_hub"
